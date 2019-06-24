@@ -1,0 +1,1458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>蜜途网</title>
+	<link rel="stylesheet" type="text/css" href="css/mitu.css">
+	<script type="text/javascript" src="js/mitu.js"></script>
+</head>
+<body>
+<!-- 导航 -->
+<div class="all">
+	  <div class="nav">
+		<div class="Logo">
+			<img src="image/Logo.jpg" alt="" />
+		</div>
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="theme.html">主题游</a></li>
+			<li><a href="hotel.html">酒店</a></li>
+			<li><a href="ticket.html">门票</a></li>
+      <li><a href="made_trlal.html">定制游</a></li>
+		</ul>
+		<div class="seacher" id="text">
+			<input type="txt" value="自驾游" /><button>搜索</button>
+		</div>
+		<div id="mask"></div>
+		<div class="Login">
+		    <span class="login" id="login">登录</span>
+		    <span class="divide">|</span>
+		    <span class="regist" id="regist">注册</span>
+	    </div>
+	    <!-- 登录代码 -->
+        <div class="login_area" id="login_content">
+        	<div class="top">
+        	    <span class="head">请登录</span>
+        	    <span class="close" id="close">x</span>
+        	</div>
+        	<div class="content">
+        		<p><span>账号：</span><input type="text" /></p>
+        		<p class="secret"><span>密码：</span><input type="text" /></p>
+        		<span class="lose">忘记密码</span>
+        		<span class="submit" >登录</span>
+        	</div>
+        </div>
+         <!-- 注册代码 -->
+    	<div class="regist_area" id="regist_content">
+    	    <div class="res_top">
+        	    <span class="res_head">注册</span>
+        	    <span class="res_close" id="res_close">x</span>
+    	    </div>
+    	    <div class="res_content" id="res_content">
+    	    	<p><span>姓名：</span><input type="text" /></p>
+    	    	<p><span>年龄：</span><input type="text" /></p>
+    	    	<p><input type="radio" name="sex" checked="checked"/>男
+    	           <input type="radio" name="sex"/>女
+    	        </p>
+    	        <p id="phone"><span>手机号：</span><input type="text"  id="tellphone"/>
+                <button id="deliver">获取验证码</button>
+                </p>
+                <div class="statusTips" id="pwdStatusTips">
+                   <!--  <i class="icon-status" id="pwdStaIco"></i> -->
+                    <span class="txtStaTips" id="txt-pwdStaTips"></span>
+                </div>
+    	        <p class="checkCode"><span>
+                验证码：<input type="text" id="code"/></span></p>
+    	        <p>
+    	        <input type="checkbox" checked="checked" /><span>同意蜜途协议</span><button id="res_submit">注册</button>
+    	        </p>
+    	        
+    	    </div>	
+        </div>
+	  </div>
+    <!-- 轮播图 -->
+    <div class="slideshow" id="ShowBox">
+        <ul class="imgUl" id="imgUl">
+            <li><img src="image/slideshow1.jpeg" alt="" /></li>
+            <li><img src="image/slideshow2.jpeg" alt="" /></li>
+            <li><img src="image/slideshow3.jpeg" alt="" /></li>
+            <li><img src="image/slideshow4.jpeg" alt="" /></li>
+        </ul>
+        <ul class="slide_nav" id="slide_nav">
+           <!--  <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li> -->
+        </ul>
+        <span class="sword sword_left" id="sword_pre"><</span>
+        <span class="sword sword_right" id="sword_next">></span>
+    </div>
+    <div class="sale">
+            <div class="onSale">
+                <div class="discount">
+                    <span class="spec_sale">快乐特价</span>
+                    <span class="spec_tex">特价旅游你值得拥有</span>
+                </div>
+                <div class="time">
+                   <p id="back_time"></p>
+                </div>
+            </div>
+            <div class="sale_kind" id="onsale_box">
+                <div class="sale_nav">
+                    <ul class="sale_ul" id="sale_choose">
+                        <li class="sale_li">超值特卖</li>
+                        <li class="sale_li">超值自由行</li>
+                        <li class="sale_li">旅游分期</li>
+                        <li class="sale_li">特价酒店</li>
+                        <li class="sale_li">特价门票</li>
+                        <li class="sale_li">银行立减</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="spaces" id="show_box">
+                <ul class="ul_show">
+                    <li class="first_li">
+                       <img src="image/te1.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">新加坡+马来西亚5晚6日游</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">8148</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                        <img src="image/te2.jpg" alt="" />
+                        <div class="right">
+                           <p class="firet_p">巴厘岛机票5日或6日游私家团</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">7413</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                        <img src="image/te3.jpg" alt="" />
+                        <div class="right">
+                           <p class="firet_p">坝上雪乡-塞罕坝温泉小镇-小布达</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">1599</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                </ul>
+                <ul class="ul_none">
+                    <li class="first_li">
+                       <img src="image/te5.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">香港维港璀璨夜时光4日夜景游</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">1970</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te6.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">丽江束河艳江之都4日文艺游</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">877</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te7.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">厦门曾厝垵柔情里入眠 4日文艺游</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">839</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                </ul>
+                <ul class="ul_none">
+                    <li class="first_li">
+                        <img src="image/te9.jpeg" alt="" />
+                        <div class="right">
+                           <p class="firet_p">北欧四国+冰岛12或13日游寻猎极光</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">3488</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                        <img src="image/te10.jpg" alt="" />
+                        <div class="right">
+                           <p class="firet_p">埃及10日游纯玩不进店/含1G流量卡</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">931</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                        <img src="image/te11.jpg" alt="" />
+                        <div class="right">
+                           <p class="firet_p">曼谷-芭提雅6日游郑州直飞0自费0购物</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">667</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                </ul>
+                <ul class="ul_none">
+                    <li class="first_li">
+                       <img src="image/te13.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">锦江之星(上海浦东机场二店)</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">322</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te14.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">三亚阳光大酒店五星级/三亚湾</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">599</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te15.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">香港尖沙咀(皇悦酒店Empire Hotel)</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">8148</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                </ul>
+                <ul class="ul_none">
+                    <li class="first_li">
+                       <img src="image/te17.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">青岛海昌极地海洋世界</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">60</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te18.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">济南方特东方神画</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">90</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te19.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">郑州方特欢乐世界</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">90</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                </ul>
+                <ul class="ul_none">
+                    <li class="first_li">
+                       <img src="image/te21.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">CA可联运/西海岸国家公园/登顶看动物</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">9988</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te22.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">南非10日游流动的好风景国航可联运</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">8957</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                    <li>
+                       <img src="image/te23.jpg" alt="" />
+                       <div class="right">
+                           <p class="firet_p">桂林-漓江世外桃源-巴马双飞7日游养生揭秘</p>
+                           <p>
+                               <span class="money">￥</span>
+                               <span class="num">3355</span>
+                               <span class="tex">元起</span>
+                           </p>
+                       </div>
+                    </li>
+                </ul>
+            </div>
+        <div class="hotHeadline">
+            <div class="hot_head">
+                <span class="hotNew">热门头条</span>
+                <img src="image/hot_line.jpeg" alt="" />
+            </div>
+            <p><a href="">【立减】邮轮预售最高立减1000元</a></p>
+            <p><a href="">【立减】厦门国家银行最高2400元</a></p>
+            <p><a href="">【招募】加入蜜途享受优惠</a></p>
+            <p><a href="">【发现】那里值得玩热卖集结</a></p>
+            <p><a href="">【优惠】温泉门票优惠给你去泉世界</a></p>
+        </div>
+    </div>
+    <div class="kinds">
+        <div class="hot_play">
+            <div class="title"><h4>当季热玩</h4></div>
+            <ul id="hotPlay_ul">
+                <li class="fir_li">国内自助</li>
+                <li>国内跟团</li>
+                <li>周边自驾</li>
+                <li>出境自助</li>
+                <li>海岛邮轮</li>
+            </ul>
+        </div>
+        <div class="spaces">
+            <div class="guide">
+                <a href="">
+                    <div class="guide_list">
+                        <span>出境游好礼提前送</span>
+                        <div class="go">Go></div>
+                    </div>
+                </a>
+                <a href="">
+                <div class="guide_list">
+                        <span>出境游好礼提前送</span>
+                        <div class="go">Go></div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="guide_list">
+                        <span>出境游好礼提前送</span>
+                        <div class="go">Go></div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="guide_list">
+                        <span>出境游好礼提前送</span>
+                        <div class="go">Go></div>
+                    </div>
+                </a>
+            </div>
+            <div class="guide_right" id="guide_right">
+                <div class="bigul_show">
+                   <ul>
+                    <li>
+                        <div class="guide_tu"><img src="image/guide_tu1.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[圣诞]<丽江精品连锁客栈双飞5日自由行> [圣诞]<丽江精品连锁客栈双飞5日自由行></p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>1342元</span><span class="sat">满意度98%</span></p>                           
+                    </li>
+                    <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide_tu2.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>上海迪士尼乐园双飞2日自由行宿上海迪士尼度假区酒店,含2日乐园联票,体验童话之旅 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>2114元</span><span class="sat">满意度96%</span></p>       
+                    </li>
+                   </ul>
+                   <ul>
+                    <li>                        
+                        <div class="guide_tu"><img src="image/guide_tu3.jpeg" alt="" /></div>
+                        <div class="text">
+                            <p>[元旦]&lt;广州长隆酒店双飞4日自由行&gt;万人出游优选，过千好评，途牛独家包房，多种套票房型可选 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3444元</span><span class="sat">满意度98%</span></p>       
+                    </li>
+                    <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide_tu4.JPG" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                    </li>
+                   </ul>
+                </div>
+                <div class="bigul_none">
+                    <ul>
+                      <li>
+                        <div class="guide_tu"><img src="image/guide5.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>                                  
+                      </li>
+                      <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide6.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                      </li>
+                    </ul>
+                    <ul>
+                       <li>
+                        <div class="guide_tu"><img src="image/guide7.jpeg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                       <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide8.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                    </ul>
+                </div>
+                <div class="bigul_none">
+                    <ul>
+                      <li>
+                        <div class="guide_tu"><img src="image/guide9.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>                                  
+                      </li>
+                      <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide10.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                      </li>
+                    </ul>
+                    <ul>
+                       <li>
+                        <div class="guide_tu"><img src="image/guide11.jpeg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                       <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide12.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                    </ul>
+                </div>
+                <div class="bigul_none">
+                    <ul>
+                      <li>
+                        <div class="guide_tu"><img src="image/guide13.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>                                  
+                      </li>
+                      <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide14.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                      </li>
+                    </ul>
+                    <ul>
+                       <li>
+                        <div class="guide_tu"><img src="image/guide15.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                       <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide16.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                    </ul>
+                </div>
+                <div class="bigul_none">
+                    <ul>
+                      <li>
+                        <div class="guide_tu"><img src="image/guide17.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>                                  
+                      </li>
+                      <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide18.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                      </li>
+                    </ul>
+                    <ul>
+                       <li>
+                        <div class="guide_tu"><img src="image/guide19.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                       <li class="right_li">
+                        <div class="guide_tu"><img src="image/guide20.jpg" alt="" /></div>
+                        <div class="text">
+                            <p>[春节]&lt;海南三亚-蜈支洲-亚龙湾双飞6日游&gt;甄享180度海景连住，全景观海无遮挡，纯玩无购物，蜈支洲一整天，可升五星海景酒店天通，爆款8万人出游 </p>
+                        </div>
+                        <p class="last_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>       
+                       </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="kinds_sec">
+            <div class="long_rode"><h4>出境长线</h4></div>
+            <div class="long_nav">
+                <ul id="long_nav">
+                    <li>精选</li>
+                    <li>欧洲</li>
+                    <li>美洲</li>
+                    <li>马代</li>
+                    <li>澳洲</li>
+                </ul>
+            </div>
+            <div class="long_place">
+                <h3>热门景点玩法</h3>
+                <ul>
+                    <li>法瑞意得</li>
+                    <li>奥凯墨</li>
+                    <li>马尔代夫</li>
+                    <li>黄石公园</li>
+                    <li>神秘古国埃及</li>
+                    <li>毛里求斯</li>
+                </ul>
+                <div class="long_tu">
+                    <img src="image/long_tu.jpg" alt="" />
+                </div>
+            </div>
+            <div class="longRoad_right" id="longRoad">
+                <div class="long_show">
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu1.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/long_tu2.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;欧洲-西班牙-葡萄牙12-13日游&gt;欧洲热销，一价全含，30人轻奢团，4到5星，AVE高铁，圣家族教堂，阿尔汉布拉宫</p>
+                            </div>  
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>                   
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu3.jpeg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;美国东西海岸14-15日游&gt;春节热销紧急追加团期,途牛自营,十七英里,加州小镇,奥莱嗨购,海鲜特色餐</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/long_tu4.jpeg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                         
+                    </ul>
+                </div>
+                <div class="long_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu5.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/long_tu6.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu7.jpeg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/long_tu8.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="long_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu9.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/long_tu10.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu11.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/long_tu12.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="long_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu13.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/long_tu14.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu15.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/long_tu16.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="long_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu17.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/long_tu18.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/long_tu19.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/long_tu20.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="kinds_thir">
+            <div class="short_rode"><h4>出境短线</h4></div>
+            <div class="short_nav">
+                <ul id="short_nav">
+                    <li>精选</li>
+                    <li>日本</li>
+                    <li>越柬南亚</li>
+                    <li>泰国</li>
+                    <li>东南亚</li>
+                </ul>
+            </div>
+            <div class="short_place">
+                <h3>热门目的地</h3>
+                <ul>
+                    <li>曼谷</li>
+                    <li>东京</li>
+                    <li>日本</li>
+                    <li>巴厘岛</li>
+                    <li>普吉岛</li>
+                    <li>新加坡</li>
+                </ul>
+                <div class="short_tu">
+                    <img src="image/short_tu.jpg" alt="" />
+                </div>
+            </div>
+            <div class="shortRoad_right" id="shortRoad">
+                <div class="short_show">
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu1.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/short_tu2.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;欧洲-西班牙-葡萄牙12-13日游&gt;欧洲热销，一价全含，30人轻奢团，4到5星，AVE高铁，圣家族教堂，阿尔汉布拉宫</p>
+                            </div>  
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>                   
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu3.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;美国东西海岸14-15日游&gt;春节热销紧急追加团期,途牛自营,十七英里,加州小镇,奥莱嗨购,海鲜特色餐</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/short_tu4.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                         
+                    </ul>
+                </div>
+                <div class="short_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu5.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/short_tu6.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu7.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/short_tu8.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="short_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu9.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/short_tu10.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu11.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/short_tu12.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="short_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu13.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/short_tu14.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu15.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/short_tu16.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="short_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu17.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/short_tu18.jpeg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="short_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/short_tu19.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/short_tu20.png" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="long_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="kinds_four">
+            <div class="self_rode"><h4>自助旅游</h4></div>
+            <div class="self_nav">
+                <ul id="self_nav">
+                    <li>马尔代夫</li>
+                    <li>泰国</li>
+                    <li>国内</li>
+                    <li>港澳台</li>
+                    <li>东南亚</li>
+                </ul>
+            </div>
+            <div class="self_place">
+                <h3>热门目的地</h3>
+                <ul>
+                    <li>马尔代夫</li>
+                    <li>三亚</li>
+                    <li>普吉岛</li>
+                    <li>巴厘岛</li>
+                    <li>新加坡</li>
+                    <li>厦门</li>
+                </ul>
+                <div class="self_tu">
+                    <img src="image/self_tu.jpg" alt="" />
+                </div>
+            </div>
+            <div class="selfRoad_right" id="selfRoad">
+                <div class="self_show">
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu1.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/self_tu2.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;欧洲-西班牙-葡萄牙12-13日游&gt;欧洲热销，一价全含，30人轻奢团，4到5星，AVE高铁，圣家族教堂，阿尔汉布拉宫</p>
+                            </div>  
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>                   
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu3.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;美国东西海岸14-15日游&gt;春节热销紧急追加团期,途牛自营,十七英里,加州小镇,奥莱嗨购,海鲜特色餐</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/self_tu4.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                         
+                    </ul>
+                </div>
+                <div class="self_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu5.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/self_tu6.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu7.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/self_tu8.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="self_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu9.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/self_tu10.jpeg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu11.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/self_tu12.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="self_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu13.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>&lt;德国-法国-瑞士-意大利11-12日游&gt;超两千余人出游  到访水城威尼斯 古都罗马 浪漫巴黎意大利快签 赏花系列团</p>
+                            </div>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/self_tu14.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu15.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/self_tu16.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="self_none">
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu17.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>                      
+                        <li class="li_sec">
+                            <div><img src="image/self_tu18.jpg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>                         
+                    <ul>
+                        <li>
+                            <div><img src="image/self_tu19.jpeg" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                        <li class="li_sec">
+                            <div><img src="image/self_tu20.png" alt="" /></div>
+                            <div class="mess">
+                                <p>[春节]&lt;法国意大利瑞士13到14日游&gt;一价全含，林志颖同款，旅行家推荐，牛线爆款，四到五星</p>
+                            </div>
+                            <p class="self_p"><span class="money">￥</span><span>3788元</span><span class="sat">满意度98%</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       <!--  游记攻略 -->
+        <div class="Raiders">
+            <div class="Raiders_head">
+                <h4>游记攻略</h4>
+                <div class="he_right">
+                    <span><a href="">写游记赢大奖</span></a>
+                    <div class="pu_tu"><a href=""><img src="image/publish.png" alt="" /></a></div>
+                    <span class="publish"><a href="">发表游记</a></span>
+                </div>
+            </div>
+            <div class="Raiders_cont">
+                <div class="Raiders_show">
+                    <div class="Raiders_left" id="Raiders_left">
+                        <img src="image/Raiders_tu.jpeg" alt="" />
+                            <div class="left_botm" id="left_botm">
+                                <p>天惹！印尼竟然私藏了这么多美景</p>
+                                <p>天惹！印尼竟然私藏了这么多美景</p>
+                        </div>
+                    </div>
+                    <div class="Raiders_right">
+                        <ul>
+                            <li id="right_li">
+                                <img src="image/Raiders_tu1.jpeg" alt="" />
+                                <div class="right_bottom" id="right_bottom">
+                                    <p>天惹！印尼竟然私藏了这么多美景</p>
+                                    <p>天惹！印尼竟然私藏</p>
+                                    <p>天惹！印尼竟然私藏了这么多美景</p>
+                                </div>
+                            </li>
+                            <li class="second_li" id="right_li1">
+                                <img src="image/Raiders_tu2.jpeg" alt="" />
+                                <div class="right_bottom" id="right_bottom1">
+                                    <p>天惹！印尼竟然私藏了这么多美景天惹！印尼竟然私藏</p>
+                                    <p>天惹！印尼竟然私藏了这么多美景</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li id="right_li2">
+                                <img src="image/Raiders_tu3.jpeg" alt="" />
+                                <div class="right_bottom" id="right_bottom2">
+                                    <p>天惹！印尼竟然私藏了这么多美景</p>
+                                    <p>天惹！印尼竟然私藏了这么多美景</p>
+                                </div>
+                            </li>
+                            <li class="second_li" id="right_li3">
+                                <img src="image/Raiders_tu4.jpeg" alt="" />
+                                <div class="right_bottom" id="right_bottom3">
+                                    <p>天惹！印尼竟然私藏了这么多美景</p>
+                                    <p>天惹！印尼竟然私藏了这么多美景</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="icon">
+        <ul>
+            <li><a href=""><img src="image/icon_tu1.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu2.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu3.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu4.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu5.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu6.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu7.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu8.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu9.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu10.jpeg" alt="" /></a></li>
+            <li><a href=""><img src="image/icon_tu11.jpeg" alt="" /></a></li>
+        </ul>
+        <div class="billBoard">
+            <h4>畅销排行榜</h4>
+        </div>
+        <ul class="billB">
+            <li>
+               <div class="bill"><img src="image/Billboard_tu1.jpg" alt="" /></div>
+               <div class="bill_right">
+                   <p class="Rank">Top:1</p>
+                   <p>嵩山少林寺-龙门石窟汽车1日游>观禅宗祖庭，赏石窟宝库</p>
+               </div>
+            </li>
+            <li>
+               <div class="bill"><img src="image/Billboar_tu2.jpg" alt="" /></div>
+               <div class="bill_right">
+                   <p class="Rank">Top:2</p>
+                   <p>嵩山少林寺-龙门石窟汽车1日游>观禅宗祖庭，赏石窟宝库</p>
+               </div>
+            </li>
+            <li>
+               <div class="bill"><img src="image/Billboar_tu3.jpg" alt="" /></div>
+               <div class="bill_right">
+                   <p class="Rank">Top:3</p>
+                   <p>嵩山少林寺-龙门石窟汽车1日游>观禅宗祖庭，赏石窟宝库</p>
+               </div>
+            </li>
+            <li>
+               <div class="bill"><img src="image/Billboar_tu4.jpg" alt="" /></div>
+               <div class="bill_right">
+                   <p class="Rank">Top:4</p>
+                   <p>嵩山少林寺-龙门石窟汽车1日游>观禅宗祖庭，赏石窟宝库</p>
+               </div>
+            </li>
+            <li>
+               <div class="bill"><img src="image/Billboar_tu5.jpg" alt="" /></div>
+               <div class="bill_right">
+                   <p class="Rank">Top:5</p>
+                   <p>嵩山少林寺-龙门石窟汽车1日游>观禅宗祖庭，赏石窟宝库</p>
+               </div>
+            </li>
+        </ul>
+        <ul class="theme">
+            <div class="theme_tit">
+                <h4>主题活动</h4>
+            </div>
+            <li><img src="image/theme_tu1.jpeg" alt="" /></li>
+            <li><img src="image/theme_tu2.png" alt="" /></li>
+            <li><img src="image/theme_tu3.png" alt="" /></li>
+            <li><img src="image/theme_tu4.png" alt="" /></li>
+            <li><img src="image/theme_tu5.png" alt="" /></li>
+        </ul>
+        <div class="leave_step">
+            <div class="step">
+               <h4>您的足迹</h4>
+            </div>
+            <div class="step_cont">
+                <div class="step_left">
+                    <p>[元旦]&lt;广州长隆酒店双飞4日自由行&gt;万人出游优选，过千好评，途牛独家包房，多种套票房型可选</p>
+                    <p><span class="money">￥</span><span>3488元起</span></p>
+                </div>
+                <div class="step_right"><img src="image/step_tu.jpg" alt="" /></div>
+            </div>
+        </div>
+        <div class="aimPalce">
+            <div class="aim">
+                <h4>热门目的地</h4>
+            </div>
+            <div class="aim_palce">
+                <ul>
+                    <li><img src="image/aim_tu1.jpeg" alt="" /></li>
+                    <li><img src="image/aim_tu2.jpeg" alt="" /></li>
+                    <li><img src="image/aim_tu3.jpeg" alt="" /></li>
+                </ul>
+            </div>
+            <div class="aim_tex">
+                <ul>
+                    <li>海南</li>
+                    <li>云南</li>
+                    <li>日本</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 旅游局合作 -->
+    <div class="journeyCop">
+        <div class="journey_head">
+            <h4>旅游局合作</h4>
+            <div class="more">
+                <p>更多旅游局合作>></p>
+            </div>
+        </div>
+        <div class="journey_sign">
+            <ul class="journey_sign1">
+                <li>
+                   <img src="image/journey_tu1.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu2.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu3.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu4.JPeG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu5.JPeG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu6.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu7.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu8.JPeG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu9.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+            </ul>
+            <ul class="journey_sign2">
+                <li>
+                   <img src="image/journey_tu1.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu2.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu3.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu4.JPeG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu5.JPeG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu6.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu7.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu8.JPeG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+                <li>
+                   <img src="image/journey_tu9.JPG" alt="" />
+                   <p>澳大利亚</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="question">
+        <ul class="ul_box1">
+            <li><h4>预定常见问题?</h4></li>
+            <li>纯玩是什么意思?</li>
+            <li>单房差是什么?</li>
+            <li>双飞双卧是什么意思?</li>
+            <li>满意度是怎样计算的?</li>
+        </ul>
+        <ul class="ul_box2">
+             <li><h4>预定常见问题?</h4></li>
+            <li>纯玩是什么意思?</li>
+            <li>单房差是什么?</li>
+            <li>双飞双卧是什么意思?</li>
+            <li>满意度是怎样计算的?</li>
+        </ul>
+        <ul class="ul_box3">
+             <li><h4>预定常见问题?</h4></li>
+            <li>纯玩是什么意思?</li>
+            <li>单房差是什么?</li>
+            <li>双飞双卧是什么意思?</li>
+            <li>满意度是怎样计算的?</li>
+        </ul>
+        <ul class="ul_box4">
+            <li><h4>预定常见问题?</h4></li>
+            <li>纯玩是什么意思?</li>
+            <li>单房差是什么?</li>
+            <li>双飞双卧是什么意思?</li>
+            <li>满意度是怎样计算的?</li>
+        </ul>
+        <ul class="ul_box5">
+             <li><h4>预定常见问题?</h4></li>
+            <li>纯玩是什么意思?</li>
+            <li>单房差是什么?</li>
+            <li>双飞双卧是什么意思?</li>
+            <li>满意度是怎样计算的?</li>
+        </ul>
+        <ul class="ul_box6">
+             <li><h4>预定常见问题?</h4></li>
+            <li>纯玩是什么意思?</li>
+            <li>单房差是什么?</li>
+            <li>双飞双卧是什么意思?</li>
+            <li>满意度是怎样计算的?</li>
+        </ul>
+    </div>
+    <div class="end">
+        <div class="head">
+            <img src="image/end_head.png" alt="" />
+        </div>
+        <div class="end_next1">
+            <ul class="end_ul">
+                <a href=""><li><img src="image/end_tu1.jpg" alt="" /></li></a>
+                <a href=""><li><img src="image/end_tu2.jpg" alt="" /></li></a>
+                <a href=""><li><img src="image/end_tu3.jpeg" alt="" /></li></a>
+                <a href=""><li><img src="image/end_tu4.jpeg" alt="" /></li></a>
+            </ul>
+        </div>
+        <div class="end_next2">
+            <p class="one_p">蜜途客服中心位于安阳市 来电显示为 18437281811 、1550043264 、025-85029999 、025-69609987 、025-69609986 、025-57629999 或 025-52339999</p>
+            <p class="two_p">安阳蜜途国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00144国际旅行社有限公司，旅行社业务经营许可证编号：L-SH-CJ00107</p>
+            <p class="thir_p">
+                <a href="">关于我们</a>
+                <a href="">联系我们</a>
+                <a href="">投诉建议</a>
+                <a href="">广告服务</a>
+                <a href="">旅游券</a>
+                <a href="">隐私保护</a>
+                <a href="">免费声明</a>
+                <a href="">旅游度假资质</a>
+                <a href="">主题旅游</a>
+                <a href="">度假指南</a>
+                <a href="">用户协议</a>
+                <a href="">旅游地图</a>
+                <a href="">主题旅游</a>
+                <a href="">帮助中心</a>
+            </p>
+            <p class="for_p">Copyright © 2006-2017 蜜途旅游网 营业执照 安阳旅游网 郑州旅游网 ICP认证</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>定制游</title>
+        <link rel="stylesheet" type="text/css" href="made/made_trial.css">
+        <script type="text/javascript" src="made/made_trial.js"></script>
+    </head>
+<body>
+    <div class="made_all">
+		<div class="nav">
+			<div class="Logo">
+				<img src="image/Logo.jpg" alt="" />
+			</div>
+			<ul>
+				<li><a href="mitu.html">首页</a></li>
+				<li><a href="theme.html">主题游</a></li>
+				<li><a href="hotel.html">酒店</a></li>
+				<li><a href="ticket.html">门票</a></li>
+            <li><a href="made_trlal.html">定制游</a></li>
+			</ul>
+			<div class="seacher" id="text">
+				<input type="txt" value="自驾游" /><button>搜索</button>
+			</div>
+			<div id="mask"></div>
+			<div class="Login">
+			    <span class="login" id="login">登录</span>
+			    <span class="divide">|</span>
+			    <span class="regist" id="regist">注册</span>
+		    </div>
+            <div class="login_area" id="login_content">
+            	<div class="top">
+            	    <span class="head">请登录</span>
+            	    <span class="close" id="close">x</span>
+            	</div>
+            	<div class="content">
+            		<p><span>账号：</span><input type="text" /></p>
+            		<p class="secret"><span>密码：</span><input type="text" /></p>
+            		<span class="lose">忘记密码</span>
+            		<span class="submit" >登录</span>
+            	</div>
+            </div>
+		</div>
+	    <!-- 轮播图 -->
+	    <div class="slideshow" id="ShowBox">
+	        <ul class="imgUl" id="imgUl">
+	            <li><img src="image/made_slide.jpeg" alt="" /></li>
+	            <li><img src="image/made_slide1.jpeg" alt="" /></li>
+	            <li><img src="image/made_slide.jpeg" alt="" /></li>
+	            <li><img src="image/made_slide1.jpeg" alt="" /></li>
+	        </ul>
+	        <ul class="slide_nav" id="slide_nav">
+	           <!--  <li>1</li>
+	            <li>2</li>
+	            <li>3</li>
+	            <li>4</li> -->
+	        </ul>
+	        <span class="sword sword_left" id="sword_pre"><</span>
+	        <span class="sword sword_right" id="sword_next">></span>
+	    </div>
+	    <div class="made_step">
+	    	<div class="step_mess">
+	    		<img src="image/mess_tu.jpeg" alt="">
+	    	</div>
+	    </div>
+	   <!--  主题推荐 -->
+	    <div class="theme_rom">
+	    	<div class="themeRom_nav">
+	    		<div class="theme_navL">
+	    			<h4>主题推荐</h4>
+	    			<span>这里有你想要的</span>
+	    		</div>
+	    	</div>
+	    	<div class="theme_navR">
+	    		<ul id="theme_nav">
+	    			<li>精美推荐</li>
+	    			<li>团建拓展</li>
+	    			<li>奖励旅游</li>
+	    			<li>年会会议</li>
+	    			<li>好友相聚</li>
+	    		</ul>
+	    	</div>
+	    	<div class="romPlace">
+	    		<div class="romPlacel">
+	    			<img src="image/romPlace_tu.jpeg" alt="">
+	    		</div>
+	    		<div class="romPlacer" id="romPlacer">
+	    			<div class="show_romPlace">
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu1.jpg" alt="">
+	    					   <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu2.jpg" alt="">
+	    					   <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu3.jpg" alt="">
+	    					   <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu4.jpg" alt="">
+	    					   <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu5.jpg" alt="">
+	    					   <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu6.jpg" alt="">
+	    					   <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    			<div class="none_romPlace">
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu7.png" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu8.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu9.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu10.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu11.png" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu12.png" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    			<div class="none_romPlace">
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu13.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu14.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu15.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu16.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu17.png" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu18.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    			<div class="none_romPlace">
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu19.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu20.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu21.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu22.png" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu23.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu24.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    			<div class="none_romPlace">
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu25.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu26.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu27.png" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    				<ul>
+	    					<li>
+	    					   <img src="image/romPlace_tu28.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu29.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    					<li>
+	    					   <img src="image/romPlace_tu30.jpg" alt="">
+	    					    <div class="romPlace_bot">
+	    					   	<p>&lt;厦门-鼓浪屿3日游&gt;1晚鼓浪屿，游贝壳梦幻世界，享单车骑行，品海鲜餐，赠风狮爷，独立成团</p>
+	    					   </div>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!-- 目的地推荐 -->
+	    <div class="rom_aimPlace">
+	    	<div class="rom_aPh">
+	    		<div class="tit">
+	    			<h4>目的地推荐</h4>
+	    			<span>为您精选国外热门旅游地</span>
+	    		</div>
+	    	</div>
+	    	<div class="show_aimPlace">
+	    		<ul>
+	    			<li class="fir_aimPlace"><img src="image/aimPlace_tu1.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr1">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    			<li><img src="image/aimPlace_tu2.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr2">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    			<li><img src="image/aimPlace_tu3.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr3">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    			<li><img src="image/aimPlace_tu4.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr4">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    		</ul>
+	    		<ul>
+	    			<li class="fir_aimPlace"><img src="image/aimPlace_tu5.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr5">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    			<li><img src="image/aimPlace_tu6.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr6">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    			<li><img src="image/aimPlace_tu7.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr7">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    			<li><img src="image/aimPlace_tu8.jpeg" alt="">
+                       <div class="aimPlace_intr" id="aimPlace_intr8">
+                       <p class="placeName">四川</p>
+                       <p class="placeName">Sichuan</p>
+                       <p class="tex">天涯海角，四季春常在,椰风、海韵、旖旎 ,体验热带天堂之美,碧海蓝天、阳光沙滩,一生必去千古情，舌尖海南饕餮美食
+                       </p>
+                       </div>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    </div>
+	    <!-- 推荐方案 -->
+	    <div class="schedule_head">
+	    	<div class="tit">
+	    	   <h4>热门制定方案</h4>
+	    	   <span>为您制定优秀方案</span>
+	    	</div>
+	    </div>
+	    <div class="schedule">
+	    	<div class="fir_schedule">
+	    		<ul>
+	    			<li>
+	    				<div class="schedule_tu"><img src="image/schedule_tu1.jpeg" alt=""></div>
+	    				<div class="schedule_mess">
+	    					<p class="fir_p">沙巴机票+当地5晚7日半自助团队游</p>
+	    					<p><span>行程天数:</span>7天</p>
+	    					<p><span>目的地:</span>沙巴</p>
+	    					<p class="money"><span>预算:</span>￥3999/人</p>
+	    					<p class="reason">推荐理由:</p>
+	    					<p>马努干岛出海一日游，免费赠送浮潜</p>
+	    				</div>
+	    			</li>
+	    			<li class="schedule_secLi">
+	    				<div class="schedule_tu"><img src="image/schedule_tu2.jpeg" alt=""></div>
+	    				<div class="schedule_mess">
+	    					<p class="fir_p">惠州嘉宝田温泉-罗浮山-西湖-奥地利小镇2日团队游</p>
+	    					<p><span>行程天数:</span>2天</p>
+	    					<p><span>目的地:</span>广东</p>
+	    					<p class="money"><span>预算:</span>￥588/人</p>
+	    					<p class="reason">推荐理由:</p>
+	    					<p> 浸泡富含大量钙、镁、氡等对人体有益微量元素的『温泉』 </p>
+	    				</div>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    	<div class="sec_schedule">
+	    		<ul>
+	    			<li>
+	    				<div class="schedule_tu"><img src="image/schedule_tu3.jpeg" alt=""></div>
+	    				<div class="schedule_mess">
+	    					<p class="fir_p">日本东京-北海道6晚7日团队游</p>
+	    					<p><span>行程天数:</span>7天</p>
+	    					<p><span>目的地:</span>日本</p>
+	    					<p class="money"><span>预算:</span>￥5899/人</p>
+	    					<p class="reason">推荐理由:</p>
+	    					<p> 全程酒店按您的要求可以更改，从舒适到国际五星酒店，均可定制</p>
+	    				</div>
+	    			</li>
+	    			<li class="schedule_secLi">
+	    				<div class="schedule_tu"><img src="image/schedule_tu4.jpeg" alt=""></div>
+	    				<div class="schedule_mess">
+	    					<p class="fir_p">成都-九寨-黄龙-峨乐-都江堰-青城山四飞7晚8日团队游</p>
+	    					<p><span>行程天数:</span>8天</p>
+	    					<p><span>目的地:</span>成都</p>
+	    					<p class="money"><span>预算:</span>￥4899/人</p>
+	    					<p class="reason">推荐理由:</p>
+	    					<p> 全景四川游  一次遍览大美四川 </p>
+	    				</div>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    </div>
+	   <!--  优秀设计 -->
+	    <div class="design">
+	    	<div class="design_tit">
+	    		<div class="tit"><h4>优秀定制</h4><span>给您打造不一样的色彩</span></div>
+	    	</div>
+	    	<div class="design_tu">
+	    		<ul>
+	    			<li><img src="image/design_tu1.png" alt=""></li>
+	    			<li><img src="image/design_tu2.png" alt=""></li>
+	    			<li><img src="image/design_tu3.png" alt=""></li>
+	    			<li><img src="image/design_tu4.png" alt=""></li>
+	    		</ul>
+	    	</div>
+	    </div>
+	    <div class="advantage">
+	    	<img src="image/advantage.jpeg" alt="">
+	    </div>
+	    <div class="advantage_kind">
+	    	<ul>
+	    		<li class="advantage_fir">
+	    			<div class="bg1"></div>
+	    			<span>去旅游</span>
+	    			<div class="advantage_list">
+	    				<p>跟团游&nbsp酒+景&nbsp自由行</p>
+	    				<p>海岛游&nbsp机票&nbsp邮轮</p>
+	    				<p>门票&nbsp亲子游&nbsp签证</p>
+	    				<p>机票+酒店&nbsp酒店&nbsp蜜月游</p>
+	    				<p>旅游推荐&nbsp专线</p>
+	    				<p>首付出发&nbsp当地玩乐&nbsp绿牌</p>
+	    			</div>
+	    		</li>
+	    		<li>
+	    			<div class="bg2"></div>
+	    			<span>寻优惠</span>
+	    			<div class="advantage_list">
+	    				<p>特卖&nbsp返现金</p>
+	    				<p>顶酒店&nbsp返现金</p>
+	    				<p>积分商城</p>
+	    				<p>银行特惠游</p>
+	    				<p>银行分期游</p>
+	    				<!-- <p></p> -->
+	    			</div>
+	    		</li>
+	    		<li>
+	    			<div class="bg3"></div>
+	    			<span>看攻略</span>
+	    			<div class="advantage_list">
+	    				<p>攻略</p>
+	    				<p>蜜途风向标</p>
+	    				<p>游记</p>
+	    				<p>大人玩法</p>
+	    				<!-- <p></p>
+	    				<p></p> -->
+	    			</div>
+	    		</li>
+	    		<li>
+	    			<div class="bg4"></div>
+	    			<span>查服务</span>
+	    			<div class="advantage_list">
+	    				<p class="fir_p">帮助中心</p>
+	    				<p>积分兑换</p>
+	    				<p>阳光保障</p>
+	    				<p>或侧时刻表</p>
+	    				<p>航班查询</p>
+	    				<!-- <p></p> -->
+	    			</div>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <div class="end">
+        <div class="head">
+            <img src="image/end_head.png" alt="" />
+        </div>
+        <div class="end_next1">
+            <ul class="end_ul">
+                <a href=""><li><img src="image/end_tu1.jpg" alt="" /></li></a>
+                <a href=""><li><img src="image/end_tu2.jpg" alt="" /></li></a>
+                <a href=""><li><img src="image/end_tu3.jpeg" alt="" /></li></a>
+                <a href=""><li><img src="image/end_tu4.jpeg" alt="" /></li></a>
+            </ul>
+        </div>
+        <div class="end_next2">
+            <p class="one_p">蜜途客服中心位于安阳市 来电显示为 18437281811 、1550043264 、025-85029999 、025-69609987 、025-69609986 、025-57629999 或 025-52339999</p>
+            <p class="two_p">安阳蜜途国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00144国际旅行社有限公司，旅行社业务经营许可证编号：L-SH-CJ00107</p>
+            <p class="thir_p">
+                <a href="">关于我们</a>
+                <a href="">联系我们</a>
+                <a href="">投诉建议</a>
+                <a href="">广告服务</a>
+                <a href="">旅游券</a>
+                <a href="">隐私保护</a>
+                <a href="">免费声明</a>
+                <a href="">旅游度假资质</a>
+                <a href="">主题旅游</a>
+                <a href="">度假指南</a>
+                <a href="">用户协议</a>
+                <a href="">旅游地图</a>
+                <a href="">主题旅游</a>
+                <a href="">帮助中心</a>
+            </p>
+            <p class="for_p">Copyright © 2006-2017 蜜途旅游网 营业执照 安阳旅游网 郑州旅游网 ICP认证</p>
+        </div>
+    </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>蜜途网</title>
+	<link rel="stylesheet" type="text/css" href="ticket/ticket.css">
+	<script type="text/javascript" src="ticket/ticket.js"></script>
+</head>
+<body>
+	<div class="all">
+		<div class="nav">
+			<div class="Logo">
+				<img src="image/Logo.jpg" alt="" />
+			</div>
+			<ul>
+				<li><a href="mitu.html">首页</a></li>
+				<li><a href="theme.html">主题游</a></li>
+				<li><a href="hotel.html">酒店</a></li>
+				<li><a href="#">门票</a></li>
+        <li><a href="made_trlal.html">定制游</a></li>
+			</ul>
+			<div class="seacher" id="text">
+				<input type="txt" value="自驾游" /><button>搜索</button>
+			</div>
+			<div id="mask"></div>
+			<div class="Login">
+			    <span class="login" id="login">登录</span>
+			    <span class="divide">|</span>
+			    <span class="regist" id="regist">注册</span>
+		    </div>
+            <div class="login_area" id="login_content">
+            	<div class="top">
+            	    <span class="head">请登录</span>
+            	    <span class="close" id="close">x</span>
+            	</div>
+            	<div class="content">
+            		<p><span>账号：</span><input type="text" /></p>
+            		<p class="secret"><span>密码：</span><input type="text" /></p>
+            		<span class="lose">忘记密码</span>
+            		<span class="submit" >登录</span>
+            	</div>
+            </div>
+		</div>
+		<div class="countPicked">  <!-- 带轮播图的那一大部分 -->
+			<div class="sidebar">    <!--  第一部分的侧边栏 -->
+				<ul class="seasonSelect">
+					<li class="sSone"><span>☆</span>当季精选</li>
+					<li>
+						<a href="">郑州方特欢乐世界/</a>
+						<a href="">龙门石窟</a>
+					</li>
+					<li>
+						<a href="">上海迪士尼乐园/</a>
+						<a href="">云台山/</a>
+						<a href="">重渡沟风景区</a>
+					</li>
+					<li>
+						<a href="">鸡冠洞/</a>
+						<a href="">万仙山</a>
+					</li>
+				</ul>
+				<ul class="seasonSelect">
+					<li class="sStwo">☛周边城市</li>
+					<li>
+						<a href="">郑州</a>
+						<a href="">新乡</a>
+						<a href="">安阳</a>
+						<a href="">开封</a>
+						<a href="">南阳</a>
+						<a href="">许昌</a>						
+					</li>
+					<li>
+						<a href="">焦作</a>
+					</li>
+				</ul>
+				<ul class="seasonSelect">
+					<li class="sSthree">▷热门城市</li>
+					<li>
+						<a href="">郑州</a>
+						<a href="">焦作</a>
+						<a href="">石家庄</a>
+						<a href="">洛阳</a>
+						<a href="">青岛</a>
+					</li>
+					<li>
+						<p><a href="" class="more">更多城市》</a></p>
+					</li>
+				</ul>
+				<ul class="seasonSelect">
+					<li class="sSfour">☸游玩主题</li>
+					<li>
+						<a href="">古镇园林</a>
+						<a href="">主题乐园</a>
+						<a href="">家庭亲子</a>
+						<a href="">演出表演</a>
+					</li>
+				</ul>
+			</div>
+           <div class="carousel" id="carousel_all">  <!-- 轮播图 -->
+           	    <div class="slider" id="slider_s1">
+           	    	<ul id="slider_s1_ul">
+           	    		<li><img src="ticket/ticketimage/轮播1.jpg"></li>
+           	    		<li><img src="ticket/ticketimage/轮播2.jpg"></li>
+           	    		<li><img src="ticket/ticketimage/轮播3.jpg"></li>
+           	    		<li><img src="ticket/ticketimage/轮播4.jpg"></li>
+           	    		<li><img src="ticket/ticketimage/轮播5.jpg"></li>
+           	    	</ul>
+           	    </div>
+           	    	<ul class="scroll_nav" id="sc_nav">
+    		</ul>
+    		<span class="arr arr_prev" id="prev"><</span>
+    		<span class="arr arr_next" id="next">></span>
+          </div>
+          <div class="sidebar_right">
+          	<img src="ticket/ticketimage/内容精选，侧边图.jpg">
+          </div>
+		</div>
+    <div class="sceneryAround" id="sceneryAround_div">   <!-- 热门 目的地 -->
+          	<div class="sAnav" id="sAnav_lis">
+          		<span>热门目的地</span>
+          		<ul>
+          			<li>圣亚海洋世界</li>
+          			<li>昂坪360</li>
+          			<li>珠海海洋王国</li>
+          			<li>九寨沟</li>
+          			<li>天目湖</li>
+          			<li>大连老虎滩</li>
+          		</ul>
+          		<p>更多景点>></p>
+          	</div>
+          	<div class="sA_Picked" id="sA_Picked_div">  <!--  精选栏 -->
+          		<div class="sA_Pslider"> <!--  精选栏中侧边栏 -->
+          			<ul class="sA_Pslider_1">
+          				<li><a href="" class="a1">名胜风光</a></li>
+          				<li><a href="" class="a2">古镇园林</a></li>
+          				<li><a href="" class="a3">家庭亲子</a></li>
+          			</ul>
+          			<ul class="sA_Pslider_2">
+          				<li><a href="" class="a1">主题乐园</a></li>
+          				<li><a href="" class="a2">演出表演</a></li>
+          				<li><a href="" class="a3">✎查看更多</a></li>
+          			</ul>
+          		</div>
+                <div class="sA_Pview" id="sA_Pview_div"> <!-- 精选栏筛选出来的风景 -->
+                	<ul class="sA_Pview_1">
+                		<a href=""><img src="ticket/ticketimage/圣亚海洋世界.jpeg"></a>
+                		<a href=""><img src="ticket/ticketimage/昂坪360.jpeg"></a>
+                		<a href=""><img src="ticket/ticketimage/珠江长隆海洋公园.jpeg"></a>
+                	</ul>
+                    <ul class="sA_Pview_2">
+                    	<a href=""><img src="ticket/ticketimage/九寨沟.jpg"></a>
+                    	<a href=""><img src="ticket/ticketimage/天目湖御水温泉.png"></a>
+                    	<a href=""><img src="ticket/ticketimage/大连老虎滩.jpg"></a>
+                    </ul>
+                </div>
+          	</div>
+    </div>
+    <div class="overSeas" id="overSeas_div"> <!-- - ====境外景点===== -->
+          	<div class="oSnav" id="oSnav_lis">  <!---——————————导航栏 ——————————-->
+          		<span>境外景点</span>
+          		<ul>
+          			<li>港澳台</li>
+          			<li>日本</li>
+          			<li>东南亚</li>
+          			<li>澳新</li>
+          			<li>欧洲</li>
+          		<!-- 	<li>美洲</li> -->
+          		</ul>
+          		<p>更多景点</p>
+          	</div>
+          	<div class="oS_Picked" id="oS_Picked_div"> <!--  ——————————内容区 ——————-->
+          		<div class="oS_Pone" id="oS_Pone_one">   <!-- ====第一个境外地点=== -->
+                 <ul class="oS_Pone_count">
+                   <li>  
+                     <img src="ticket/ticketimage/港澳1.jpg"> 
+                     <span class="comment1">满意度：99%----------29100人点评</span>
+                     <span class="area">香港迪士尼乐园</span> 
+                     <span class="price">¥66元起</span>                    
+                   </li>
+                   <li>
+                     <img src="ticket/ticketimage/港澳2.jpg">
+                     <span class="comment1" >满意度97%----------2670人点评</span>
+                     <span class="area">香港杜莎夫人蜡像馆</span> 
+                     <span class="price">¥144元起</span> 
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/港澳3.jpg">
+                    <span class="comment1">满意度98%----------5999人点评</span>
+                    <span class="area">香港海洋公园</span> 
+                    <span class="price">¥153元起</span> 
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/港澳4.jpg">
+                    <span class="comment1">满意度79%----------110000人点评</span>
+                    <span class="area">香港太平山缆车</span> 
+                    <span class="price">¥66元起</span> 
+                   </li>
+                 </ul>
+              </div>                                
+          		<div class="oS_Ptwo" id="oS_Pone_one">  <!--- ***** 第二个境外景点 ***-->
+                 <ul class="oS_Pone_count">
+                   <li>
+                    <img src="ticket/ticketimage/日本1.jpg">
+                    <span class="comment">满意度97%----------401人点评</span>
+                    <span class="area">日本大阪环球影城</span>
+                    <span class="price">¥445元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/日本2.jpg">
+                    <span class="comment">满意度98%----------420人点评</span>
+                    <span class="area">日本铁路周游券*全国</span>
+                    <span class="price">¥862元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/日本3.jpg">
+                    <span class="comment">满意度96%----------309人点评</span>
+                    <span class="area">日本东京迪士尼乐园</span>
+                    <span class="price">¥395元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/日本4.jpg">
+                    <span class="comment">满意度100%----------新品推荐</span>
+                    <span class="area">日本铁路周游券*四国</span>
+                    <span class="price">¥225元起</span>
+                   </li>
+                 </ul>  
+              </div>
+              <div class="oS_Pthree" id="oS_Pone_one"><!-- *****  第三个境外景点 ***-->
+                 <ul class="oS_Pone_count">
+                   <li>
+                    <img src="ticket/ticketimage/东南1.jpg">
+                    <span class="comment">满意度97%----------1906人点评</span>
+                    <span class="area">新加坡环球影城</span>
+                    <span class="price">¥197元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/东南2.jpg">
+                    <span class="comment">满意度98%----------672人点评</span>
+                    <span class="area">S.E.A海洋馆</span>
+                    <span class="price">¥93元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/东南3.jpg">
+                    <span class="comment">满意度99%----------589人点评</span>
+                    <span class="area">新加坡日间动物园</span>
+                    <span class="price">¥90元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/东南4.jpg">
+                    <span class="comment">满意度95----------597人点评</span>
+                    <span class="area">新加坡夜间动物园</span>
+                    <span class="price">¥119元起</span>
+                   </li>
+                 </ul>
+              </div>
+              <div class="oS_Pfour" id="oS_Pone_one"> <!--  **** 第四个境外景点 ****-->
+                 <ul class="oS_Pone_count">
+                   <li>
+                    <img src="ticket/ticketimage/澳新1.jpg">
+                    <span class="comment">满意度92%----------14人点评</span>
+                    <span class="area">澳大利亚悉尼景点通篇</span>
+                    <span class="price">¥146元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/澳新2.jpg">
+                    <span class="comment">满意度100%----------9人点评</span>
+                    <span class="area">澳大利亚悉尼塔朗家动物园</span>
+                    <span class="price">¥141元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/澳新3.jpg">
+                    <span class="comment">满意度100%----------1人点评</span>
+                    <span class="area">澳大利亚凯恩斯绿岛生态游</span>
+                    <span class="price">¥221元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/澳新4.jpg">
+                    <span class="comment">满意度100----------11099人点评</span>
+                    <span class="area">澳大利亚水上探险园</span>
+                    <span class="price">¥146元起</span>
+                   </li>
+                 </ul>
+              </div>
+              <div class="oS_Pfive" id="oS_Pone_one"><!-- ******第五个境外景点*** -->
+                 <ul class="oS_Pone_count">
+                   <li>
+                    <img src="ticket/ticketimage/欧洲1.jpg">
+                    <span class="comment">满意度94%----------1499人点评</span>
+                    <span class="area">法国巴黎凡尔赛宫</span>
+                    <span class="price">¥226元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/欧洲2.jpg">
+                    <span class="comment">满意度69%----------4669人点评</span>
+                    <span class="area">法国巴黎观光巴士</span>
+                    <span class="price">¥289元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/欧洲3.jpg">
+                    <span class="comment">满意度90%----------7743人点评</span>
+                    <span class="area">峨眉山</span>
+                    <span class="price">¥20元起</span>
+                   </li>
+                   <li>
+                    <img src="ticket/ticketimage/欧洲4.jpg">
+                    <span class="comment">满意度99%----------4580人点评</span>
+                    <span class="area">英国可口可乐伦敦眼</span>
+                    <span class="price">¥130元起</span>
+                   </li>
+                 </ul>
+              </div>
+          	</div>
+    </div>
+    <div class="cooperate" id="cooperate_D">
+        <span>合作景区</span>        
+        <div class="a_n"><a href=""><img src="ticket/ticketimage/合作景区1.jpeg" alt="" /></a></div>
+        <div class="a_n"><a href=""><img src="ticket/ticketimage/合作景区2.jpeg" alt="" /></a></div>
+        <div class="a_n"><a href=""><img src="ticket/ticketimage/合作景区3.jpeg" alt="" /></a></div>
+        <div class="a_n"><a href=""><img src="ticket/ticketimage/合作景区4.jpg" alt="" /></a></div>
+        <div class="a_n"><a href=""><img src="ticket/ticketimage/合作景区5.jpg" alt="" /></a></div>
+    </div>
+    <div class="bottom1">
+      <div class="tourist">
+        <span class="icon">✈</span>
+        <span class="word">去旅游</span>
+        <div class="tourist_ul">
+        <ul>
+          <li><a href="">跟团游</a></li>
+          <li><a href="">海岛游</a></li>
+          <li><a href="">门票</a></li>
+          <li><a href="">机票+酒店</a></li>
+          <li><a href>老于推荐</a></li>
+          <li><a href="">首付出发</a></li>
+        </ul>
+        <ul>
+          <li><a href="">自由行</a></li>
+          <li><a href="">机票</a></li>
+          <li><a href>亲子游</a></li>
+          <li><a href="">蜜月游</a></li>
+          <li><a href="">公司旅游</a></li>
+          <li><a href="">当地玩乐</a></li>
+        </ul>
+        <ul>
+          <li><a href="">酒+景</a></li>
+          <li><a href="">游轮</a></li>
+          <li><a href="">签证</a></li>
+          <li><a href="">酒店</a></li>
+          <li><a href="">牛人专线</a></li>
+          <li><a href="">旅拍</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="fchipe">
+        <span class="icon">¤</span>
+        <span class="word">寻优惠</span>
+        <ul>
+          <li><a href="">特卖</a></li>
+          <li><a href="">订酒店-返现金</a></li>
+          <li><a href="">积分商城</a></li>
+          <li><a href="">银行特惠游</a></li>
+          <li><a href="">银行分期游</a></li>
+        </ul>
+      </div>
+      <div class="strategy">
+        <span class="icon">ஐ</span>
+        <span class="word">看攻略</span>
+        <ul>
+          <li><a href="">攻略</a></li>
+          <li><a href="">途牛风向标</a></li>
+          <li><a href="">游记</a></li>
+          <li><a href="">达人玩法</a></li>
+        </ul>
+      </div>
+      <div class="serve">
+        <span class="icon">☎</span>
+        <span class="word">查服务</span>
+        <ul>
+          <li><a href="">帮助中心</a></li>
+          <li><a href="">积分俱乐部</a></li>
+          <li><a href="">阳光保障</a></li>
+          <li><a href="">火车时刻表</a></li>
+          <li><a href="">航班查询</a></li>
+        </ul>
+      </div>
+      <div class="tuniuA">
+        <span class="icon">├┤</span>
+        <span class="word">途牛APP</span>
+        <ul>
+          <li><a href="">扫描下载途牛APP</a></li>
+          <li><img src="ticketimage/bottom1 途牛.png"></li>
+        </ul>
+      </div>
+    </div>
+<!-- //最后一部分========================——————————————————————————————————————————————————- -->    
+    <div class="undergreen">
+          <ul>
+            <li>
+                <a href="" class="bigword">阳光行程</a>
+                <a href="" class="smallword">透明公开</a>
+            </li>
+            <li>
+                <a href="" class="bigword">阳光价格</a>
+                <a href="" class="smallword">明码实价</a>
+            </li>
+            <li>
+                <a href="" class="bigword">阳光服务</a>
+                <a href="" class="smallword">专属客服</a>
+            </li>
+            <li class="underfina">
+                <a href="" class="smallword">客户服务电话（免长途费）</a>
+                <a href="" class="bigword">4007-999-999</a>
+            </li>
+          </ul>
+     </div>
+
+        <div class="underimgs">
+          <div><a href=""><img src="ticket/ticketimgs/under1.jpg" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/under2.jpg" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/under3.jpeg" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/under4.jpeg" alt="" /></a></div>
+        </div>
+
+        <div class="underimgs underimg">
+        <div><a href=""><img src="ticket/ticketimgs/under.jpeg" alt="" /></a></div>
+        </div>
+
+        <div class="underwords">
+          <p>密途客服中心位于南京市 来电显示为 025-86859999 、025-86259999 、025-85029999 、025-69609987 、025-69609986 、025-57629999 或 025-52339999</p>
+          <p>北京密途国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00144　　上海途牛国际旅行社有限公司，旅行社业务经营许可证编号：L-SH-CJ00107</p>
+          <ul>
+            <li class="firstli"><a href="">关于我们</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">投诉建议</a></li>
+            <li><a href="">广告服务</a></li>
+            <li><a href="">旅游券</a></li>
+            <li><a href="" class="wordred">密途招聘</a></li>
+            <li><a href="">隐私保护</a></li>
+            <li><a href="">免责声明</a></li>
+            <li><a href="">旅游度假资质</a></li>
+            <li><a href="">主题旅游</a></li>
+            <li><a href="">用户协议</a></li>
+            <li><a href="">网站地图</a></li>
+            <li><a href="">UEIP</a></li>
+            <li class="lastli"><a href="">帮助中心</a></li>
+          </ul>
+            <span class="firstspan">Copyright  2006-2017</span>
+            <ul class="underspan">
+              <li><a href=""> 南京途牛科技有限公司 Tuniu.com</a><span>|</span></li>
+              <li><a href=""> 营业执照</a><span>|</span></li>
+              <li><a href=""> ICP证：苏B2-20130006</a><span>|</span></li>
+              <li><a href="">苏ICP备12009060号</a><span>|</span></li>
+              <li><a href="">郑州旅游网</a></li>
+            </ul>
+        </div>
+        <div class="underwordsimgs">
+          <div><a href=""><img src="ticket/ticketimgs/underwordsimgs1.jpg" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/underwordsimgs2.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/underwordsimgs3.jpg" alt="" /></a></div>
+        </div>
+        <div class="news">
+            <p>最新预订：6分钟前用户***306215预订[元旦]<漓江-阳朔-桂林-古东森林瀑布双飞5日游>优选0购物，8大精粹景点，赏千余亩古东枫林，遇龙河双人筏，品小南国/米粉宴，暖冬更享美景</p>
+        </div>
+
+        <div class="adver">
+          <div><a href=""><img src="ticket/ticketimgs/ad1.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/ad2.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/ad3.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/ad4.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/ad5.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/ad6.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/ad7.png" alt="" /></a></div>
+          <div><a href=""><img src="ticket/ticketimgs/ad8.png" alt="" /></a></div>
+        </div>
+  </div>
+</body>
+</html>

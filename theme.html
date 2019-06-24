@@ -1,0 +1,942 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>蜜途网</title>
+	<link rel="stylesheet" type="text/css" href="theme/nav.css">
+	<script type="text/javascript" src="theme/mitu.js"></script>
+</head>
+<body>
+	<div class="all">
+		<div class="nav">
+			<div class="Logo">
+				<img src="image/Logo.jpg" alt="" />
+			</div>
+			<ul>
+				<li><a href="mitu.html">首页</a></li>
+				<li><a href="theme.html">主题游</a></li>
+				<li><a href="hotel.html">酒店</a></li>
+				<li><a href="ticket.html">门票</a></li>
+                <li><a href="made_trlal.html">定制游</a></li>
+			</ul>
+			<div class="seacher" id="text">
+				<input type="txt" value="自驾游" /><button>搜索</button>
+			</div>
+			<div id="mask"></div>
+			<div class="Login">
+			    <span class="login" id="login">登录</span>
+			    <span class="divide">|</span>
+			    <span class="regist" id="regist">注册</span>
+		    </div>
+            <div class="login_area" id="login_content">
+            	<div class="top">
+            	    <span class="head">请登录</span>
+            	    <span class="close" id="close">x</span>
+            	</div>
+            	<div class="content">
+            		<p><span>账号：</span><input type="text" /></p>
+            		<p class="secret"><span>密码：</span><input type="text" /></p>
+            		<span class="lose">忘记密码</span>
+            		<span class="submit" >登录</span>
+            	</div>
+            </div>
+		</div>
+
+
+		<div class="first">
+		    <div class="div_nav" id="firstNav">
+		    	<ul class="firstulbgc">
+		    		<li class="ul_nav"><a href="">密途品牌主题</a></li>
+		    		<li class="ulnext">
+		    		    <a href="">瓜果亲子游</a>
+		    		    <a href="">乐开花爸妈游</a>
+		    		</li>
+		    	
+		    		<li class="ulnext"><a href="">一路之上</a></li>
+		    	</ul>
+		    	<ul class="firstulbgc">
+		    		<li class="ul_nav"><a href="">经典主题</a></li>
+		    		<li class="ulnext">
+		    		    <a href="">蜜月游</a>
+		    		    <a href="">海岛游</a>
+		    		    <a href="">婚纱旅拍</a>
+		    		</li>
+		    		
+		    		<li class="ulnext">
+		    		    <a href="">周末游</a>
+		    		    <a href="">免签/落地签</a>
+		    		</li>
+		        </ul>
+		        <ul class="firstulbgc">	
+		    		<li class="ul_nav"><a href="">特色主题</a></li>
+		    		<li class="ulnext">
+		    		    <a href="">徒步</a>
+		    		    <a href="">极地之旅</a>
+		    		    <a href="">主题乐园</a>
+		    		</li>
+		    		
+		    		<li class="ulnext">
+		    		    <a href="">骑行</a>
+		    		    <a href="">体育赛事</a>
+		    		    <a href="">人文探索</a>
+		    		</li>
+		    	</ul>
+		    </div>
+			<div class="slideshow" id="slideShow">
+			    <div class="slider" id="slider">
+				    <ul id="sl_Ul">
+					    <li><a href=""><img src="theme/themeimgs/轮播图1.jpeg" alt="" /></a></li>
+					    <li><a href=""><img src="theme/themeimgs/轮播图2.jpeg" alt="" /></a></li>
+					    <li><a href=""><img src="theme/themeimgs/轮播图3.jpeg" alt="" /></a></li>
+					    <li><a href=""><img src="theme/themeimgs/轮播图4.jpeg" alt="" /></a></li>
+					    <li><a href=""><img src="theme/themeimgs/轮播图5.jpeg" alt="" /></a></li>
+				    </ul>
+				</div>
+				<ul class="sl_num" id="slNum">
+					<!-- <li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li> -->
+				</ul>
+				<span class="arr arr_pre" id="pre"><</span>
+				<span class="arr arr_next" id="next">></span>
+			</div>
+			<div class="slider_right" id="sliderRight">
+				<div class="imgs1"><img src="theme/themeimgs/轮播右1.png" alt="" /></div>
+				<div class="imgs2"><img src="theme/themeimgs/轮播右2.png" alt="" /></div>
+			</div>
+		</div>
+		<div class="second" id="second">
+			<div class="se_nav" id="senav">
+				<h2>经典主题</h2>
+				<ul id="seUl">
+					<li class="se_navBgc">蜜月游</li>
+					<li>海岛游</li>
+					<li>周末游</li>
+					<li>免签/落地签</li>
+				</ul>
+                <span class="se_last"><a href="">更多推荐></a></span>
+			</div>
+            <div class="smImg" id="smimg">
+                <!-- 经典蜜月 -->
+			    <div class="show"><div class="se_Img">
+				    <div class="se_leftImg">
+					    <a href=""><img src="theme/themeimgs/经典蜜月.png" alt="" /></a>
+				    </div>
+				    <div id="semy">
+				        <div class="se_smallImg se_topMar" id="seImg1">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月1.JPG" alt="" />
+				                <div class="words hide" id="wordmy1">蓝梦岛 海底漫步 双下午茶 阿勇河漂流 乌布体验 海上汽艇</div>
+				                <div class="picmask">满意度：92%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3380</span><span>元起</span></div>
+				            <p><a href="">[国庆]<云南旅游昆明-大理-丽江双飞6天5晚跟团游>石林大理古城洱海大游轮丽江古城玉龙雪山大索道虎跳峡温泉SPA畅打高尔夫海滨酒店</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="seImg2">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月2.jpg" alt="" />
+				                <div class="words  hide" id="wordmy2">上海包机直飞 包含税费 全程自由行 酒店无法指定</div>
+				                <div class="picmask">满意度：91%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">6920</span><span>元起</span></div>
+				            <p><a href=""><巴厘岛机票+当地5晚6或7日游>蓝梦岛出海（海底漫步），LULU SPA，海上汽艇12选1，阿勇河漂流，双下午茶，独栋泳池别墅加海边酒店</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="seImg3">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月3.jpg" alt="" />
+				                <div class="words hide" id="wordmy3">大床房型集结 覆盖三亚各地 多种一日游可增订</div>
+				                <div class="picmask">满意度：96%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3099</span><span>元起</span></div>
+				            <p><a href=""><塞班岛5晚6日自由行>上海包机直飞特价，含早含税含接送，酒店级别多重选择，ZZ套餐专享赠送塞班大礼包之环岛游、军舰岛两日游</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar setop" id="seImg4">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月4.jpg" alt="" />
+				                <div class="words hide" id="wordmy4">八人精品小团 真纯玩无购物 云南精华景点 玉龙雪山 大理洱海双廊 香格里拉</div>
+				                <div class="picmask">满意度：97%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">2490</span><span>元起</span></div>
+				            <p><a href=""><海南三亚之恋双飞5日自由行>蜜月优选，共度甜蜜二人世界，让爱在缤纷海 岸上升华，可增订婚纱摄影套餐</a></p>
+				        </div>
+				        <div class="se_smallImg" id="seImg5">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月5.jpg" alt="" />
+				                <div class="words hide" id="wordmy5">纳西院落  特色客栈  幽静之选</div>
+				                <div class="picmask">满意度：94%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3432</span><span>元起</span></div>
+				            <p><a href=""><丽江-大理-香格里拉-泸沽湖双飞8日游>8人精品小团，纯玩无购物，全程商务车，金牌师傅，环游洱海，玉龙雪山，9元换购升级一线湖景房，含旅拍相册</a></p>
+				        </div>
+				        <div class="se_smallImg" id="seImg6">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月6.jpg" alt="" />
+				                <div class="words hide" id="wordmy6">东部海岸五星，跟团两日游，房型可选择，行程可升级
+				                ，三天自由活动</div>
+				                <div class="picmask">满意度：94%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1437</span><span>元起</span></div>
+				            <p><a href=""><丽江天域阳光客栈5日自由行>放松心情漫游丽江，精心阳光庭院 纳西特色家 庭房，家庭出游首选</a></p>
+				        </div>
+				        <div class="se_smallImg" id="seImg7">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月7.jpg" alt="" />
+				                <div class="words hide" id="wordmy7">精选180°海景  经典TOP5景点 亲子蜜月纯玩  超值品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：95%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">15272</span><span>元起</span></div>
+				            <p><a href="">[元旦]<斯里兰卡机票+当地7晚8日半自助游>2人成行独立成团 经典行程尊享中文导游服务 含全程小费 升级住宿无敌小火车</a></p>
+				        </div>
+				        <div class="se_smallImg" id="seImg8">
+				            <div class="pic">
+				                <img src="theme/themeimgs/蜜月8.jpg" alt="" />
+				                <div class="words hide" id="wordmy8">牛人年度爆款 TOP5景点 亲子蜜月纯玩 180海景房 海岛纯玩品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：96%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">19538</span><span>元起</span></div>
+				            <p><a href=""><毛里求斯机票+当地7天5晚半自助游>香港直飞，四季酒店，泳池别墅，经典2日游（探索毛球北部之旅，双体船巡游西海岸看海豚），3天自由活动（快艇鹿岛水上三项/南方鸟公园四驱车/3000米高空跳伞），酒店早晚餐</a></p>
+				        </div>
+				    </div>
+			    </div></div>
+                 <!-- 经典海岛 -->
+			    <div class="hide"><div class="se_Img">
+				    <div class="se_leftImg">
+					    <a href=""><img src="theme/themeimgs/经典海岛.png" alt="" /></a>
+				    </div>
+				    <div id="sehd">
+				        <div class="se_smallImg se_topMar" id="sehd1">
+				            <div class="pic">
+				                <img src="theme/themeimgs/海岛1.jpg" alt="" />
+				                <div class="words hide" id="wordhd1">北京直飞  包含税费 全程自由行 酒店无法指定</div>
+				                <div class="picmask">满意度：93%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">6099</span><span>元起</span></div>
+				            <p><a href="">[春节]<塞班岛5晚6日自由行>北京东航直飞，5个半小时直达，免签美属海岛，多种套餐任选，含早含税含接送赠送环岛游，升级HF嗨玩行程赠送2顿精美团餐</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="sehd2">
+				            <div class="pic">
+				                <img src="theme/themeimgs/海岛2.jpg" alt="" />
+				                <div class="words hide" id="wordhd2">房间面积超大 私人泳池 免费WIFI</div>
+				                <div class="picmask">满意度：94%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">18110</span><span>元起</span></div>
+				            <p><a href=""><马尔代夫阿米拉岛Amilla Fushi5晚7日自由行>华中华南出发，第1晚马累，房间面积超大，免费WIF</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="sehd3">
+				            <div class="pic">
+				                <img src="theme/themeimgs/海岛3.jpg" alt="" />
+				                <div class="words hide" id="wordhd3">2人成行 免费接送机 出海日游 自由活动 海景骑大象</div>
+				                <div class="picmask">满意度：91%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">6309</span><span>元起</span></div>
+				            <p><a href=""><泰国-普吉岛机票+当地5晚6或7日半自助游>无自费，PP岛或皇帝岛出海，骑大象精油SPA，仅1站公众免税店，3天自由活动，酒店可选，下单送电话卡</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar setop" id="sehd4">
+				            <div class="pic">
+				                <img src="theme/themeimgs/海岛4.jpg" alt="" />
+				                <div class="words hide" id="wordhd4">高性价比 印度尼西亚 免签海岛 澳门成团 </div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">2700</span><span>元起</span></div>
+				            <p><a href=""><巴厘岛5-6日游>澳门直飞，精心安排，双岛畅游，蓝梦岛和贝达尼岛，美食升级，贝达尼岛海景餐厅享用火鸡餐</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sehd5">
+				            <div class="pic">
+				                <img src="theme/themeimgs/海岛5.jpg" alt="" />
+				                <div class="words hide" id="wordhd5">伴手礼,高性价比,半自助</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">5590</span><span>元起</span></div>
+				            <p><a href=""><<巴厘岛6晚8天半自助游> 两天自由活动  凯恩斯号 顶级豪华游艇出海贝尼达岛 当地特色餐</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sehd6">
+				            <div class="pic">
+				                <img src="theme/themeimgs/海岛6.jpeg" alt="" />
+				                <div class="words hide" id="wordhd6">伴手礼,五星酒店,半自助,接送机</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">12980</span><span>元起</span></div>
+				            <p><a href=""><斐济Matamanoa度假村半自由行6晚8日>Matamanoa度假村，斐济难得的一岛一酒店， 私密绝佳</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sehd7">
+				            <div class="pic">
+				                <img src="theme/themeimgs/海岛7.jpg" alt="" />
+				                <div class="words hide" id="wordhd7">中文服务 免费WIFI 喜达屋知名品牌酒店</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">11696</span><span>元起</span></div>
+				            <p><a href=""><毛里求斯5晚8日自由行>Le Meridien艾美酒店（四星），含早晚餐，接送机，地图电话卡，香港转机</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sehd8">
+				            <div class="pic">
+				                <theme src="theme/themeimgs/海岛8.jpg" alt="" />
+				                <div class="words hide" id="wordhd8">独立小团 瑞吉下午茶 喜来登自助晚餐</div>
+				                <div class="picmask">满意度：92%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">9140</span><span>元起</span></div>
+				            <p><a href="">"[元旦]<巴厘岛5晚7日包团定制游>2人独立成团，单车单导，无购物，蓝梦出海，瑞吉下午茶，精油SPA，喜来登自助晚餐，情人崖，金巴兰BBQ，含散客机票</a></p>
+				        </div>
+				    </div>
+			    </div></div>
+
+			    <!-- 经典周末 -->
+			    <div class="hide"><div class="se_Img">
+				    <div class="se_leftImg">
+					    <a href=""><img src="theme/themeimgs/经典周末.png" alt="" /></a>
+				    </div>
+				    <div id="sezm">
+				        <div class="se_smallImg se_topMar" id="sezm1">
+				            <div class="pic">
+				                <img src="theme/themeimgs/周末1.jpg" alt="" />
+				                <div class="words hide" id="wordzm1"></div>
+				                <div class="picmask">满意度：99%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1132</span><span>元起</span></div>
+				            <p><a href=""><济南3日自由行>市区高星酒店任选，绝佳地理位置
+				            ，高铁车次/景区门票/泰山、曲阜观光游自选</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="sezm2">
+				            <div class="pic">
+				                <img src="theme/themeimgs/周末2.jpg" alt="" />
+				                <div class="words hide" id="wordzm2">尝老济南味道 游泉城三名胜</div>
+				                <div class="picmask">满意度：73%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1051</span><span>元起</span></div>
+				            <p><a href=""><济南-趵突泉-大明湖-千佛山-洪家楼天主教堂3日游>火车往返，自选车票，济南泉盈酒店，至少2成人起订</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="sezm3">
+				            <div class="pic">
+				                <img src="theme/themeimgs/周末3.jpg" alt="" />
+				                <div class="words hide" id="wordzm3">尝老济南味道 游泉城三名胜</div>
+				                <div class="picmask">满意度：69%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1172</span><span>元起</span></div>
+				            <p><a href=""><济南-趵突泉-大明湖-千佛山-洪家楼天主教堂3日游>火车往返，自选车票，济南泉盈酒店，至少2成人起订</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar setop" id="sezm4">
+				            <div class="pic">
+				                <img src="theme/themeimgs/周末4.jpg" alt="" />
+				                <div class="words hide" id="wordzm4"></div>
+				                <div class="picmask">满意度：95%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1165</span><span>元起</span></div>
+				            <p><a href=""><济南高铁3日自由行>高铁往返，宿银座泉城
+				            大酒店，连住2晚</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sezm5">
+				            <div class="pic">
+				                <img src="theme/themeimgs/周末5.jpg" alt="" />
+				                <div class="words hide" id="wordzm5"></div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1133</span><span>元起</span></div>
+				            <p><a href=""><斐济6晚9日自由行>Tropica热带岛度假村，含早晚餐，热
+				            带风光，绝美海景，武汉往返</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sezm6">
+				            <div class="pic">
+				                <img src="theme/themeimgs/周末6.jpg" alt="" />
+				                <div class="words hide" id="wordzm6"></div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">854</span><span>元起</span></div>
+				            <p><a href=""><济南高铁2日自由行>高铁往返，宿汇泉精品酒店</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sezm7">
+				            <div class="pic">
+				                <img src="theme/themeimgs/周末7.jpg" alt="" />
+				                <div class="words hide" id="wordzm7">济南动物园/千佛山景区/方特东方神画</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">909</span><span>元起</span></div>
+				            <p><a href=""><自由行-济南2天1晚自由行>高铁往返，宿山东丽山
+				            大厦，济南动物园/千佛山景区/方特东方神画门票任选</a></p>
+				        </div>
+				        <div class="se_smallImg" id="sezm8">
+				            <div class="pic">
+				                <theme src="theme/themeimgs/周末8.jpg" alt="" />
+				                <div class="words hide" id="wordzm8">0购物 周末出游首选</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1102</span><span>元起</span></div>
+				            <p><a href=""><曲阜-孔庙-孔府-孔林-泰山双高2日游>游三孔，登泰
+				            山，封禅大典，纯玩0购物，跟着导游打快板，唱吕剧</a></p>
+				        </div>
+				    </div>
+			    </div></div>
+			    <!-- 免签，落地签 -->
+			    <div class="hide"><div class="se_Img">
+				    <div class="se_leftImg">
+					    <a href=""><img src="theme/themeimgs/经典免签.png" alt="" /></a>
+				    </div>
+				    <div id="se_rightImg">
+				        <div class="se_smallImg se_topMar" id="semq1">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签1.jpg" alt="" />
+				                <div class="words hide" id="wordmq1">中文服务 免费WIFI 喜达屋知名品牌酒店</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">14969</span><span>元起</span></div>
+				            <p><a href=""><毛里求斯5晚8日自由行>Le Meridien艾美酒
+				            店（四星），含早晚餐，接送机，地图电话卡，香港转机</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="semq2">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签2.jpg" alt="" />
+				                <div class="words hide" id="wordmq2">仅30间房 含早晚餐 16岁以下 儿童不能上岛 私密绝佳</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">11696</span><span>元起</span></div>
+				            <p><a href=""><斐济6晚9日自由行>Tropica热带岛度假村，含早
+				            晚餐，私密绝佳，蜜月首选</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar" id="semq3">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签3.jpg" alt="" />
+				                <div class="words hide" id="wordmq3">一岛一酒店 仅33间房 儿童不能上岛 私密性好 适合蜜月情侣</div>
+				                <div class="picmask">满意度：96%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">11349</span><span>元起</span></div>
+				            <p><a href="">[春节]<斐济6晚9日自由行>Matamanoa马塔马诺阿度假村，一岛一酒店，私密绝佳，畅游浮潜，含往返船票和中文接送，更有蜜月惊喜礼品，武汉往返</a></p>
+				        </div>
+				        <div class="se_smallImg se_topMar setop" id="semq4">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签4.png" alt="" />
+				                <div class="words hide" id="wordmq4">仅30间房 含早晚餐 16岁以下 儿童不能上岛 私密绝佳</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">11165</span><span>元起</span></div>
+				            <p><a href=""><斐济6晚8日或9日自由行>Tropica热带岛度假村，含早晚餐，热带风光，绝美海景，全国13个城市出发可选</a></p>
+				        </div>
+				        <div class="se_smallImg" id="semq5">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签5.jpeg" alt="" />
+				                <div class="words hide" id="wordmq5">仅30间房 含早晚餐 16岁以下 儿童不能上岛 私密绝佳</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">14946</span><span>元起</span></div>
+				            <p><a href=""><斐济6晚9日自由行>Tropica热带岛度假村，含早晚餐，热带风光，绝美海景，武汉往返</a></p>
+				        </div>
+				        <div class="se_smallImg" id="semq6">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签6.jpg" alt="" />
+				                <div class="words hide" id="wordmq6">仅30间房 含早晚餐 16岁以下 儿童不能上岛 私密绝佳</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">15287</span><span>元起</span></div>
+				            <p><a href=""><斐济6晚9日自由行>Tropica热带岛度假村，含早晚餐
+				            ，热带风光，绝美海景，长沙往返</a></p>
+				        </div>
+				        <div class="se_smallImg" id="semq7">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签7.png" alt="" />
+				                <div class="words hide" id="wordmq7">澳洲游客最爱  华裔厨师坐镇 休闲度假私密性极佳</div>
+				                <div class="picmask">满意度：92%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">15048</span><span>元起</span></div>
+				            <p><a href=""><斐济6晚9日自由行>Treasure金银岛度假村，寻
+				            找蓝海星，武汉往返</a></p>
+				        </div>
+				        <div class="se_smallImg" id="semq8">
+				            <div class="pic">
+				                <img src="theme/themeimgs/免签8.jpg" alt="" />
+				                <div class="words hide" id="wordmq8">仅26间房 儿童不能入住 浮潜绝佳 私密绝佳 适合蜜月情侣</div>
+				                <div class="picmask">满意度：98%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">10831</span><span>元起</span></div>
+				            <p><a href="">[春节]<斐济6晚9日自由行>Lomani洛玛尼度假村，蜜月型度假村，儿童不能入住，A级沙质，浮潜圣地，邂逅海豚，武汉往返</a></p>
+				        </div>
+				    </div>
+			    </div></div>
+            </div>
+		</div>
+
+        
+        <div class="third" id="third">
+			<div class="th_nav" id="thnav">
+				<h2>特色主题</h2>
+				<ul id="thUl">
+					<li class="th_navBgc">骑行</li>
+					<li>徒步</li>
+					<li>极地之旅</li>
+				</ul>
+                <span class="th_last"><a href="">更多推荐></a></span>
+			</div>
+            <div class="smImg" id="thimg">
+                <!-- 特色骑行 -->
+			    <div class="show"><div class="th_Img">
+				    <div class="th_leftImg">
+					    <a href=""><img src="theme/themeimgs/特色户外.png" alt="" /></a>
+				    </div>
+				    <div id="th_rightImg">
+				        <div class="th_smallImg th_topMar" id="thqx1">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行1.jpg" alt="" />
+				                <div class="words hide" id="wordqx1">蓝梦岛 海底漫步 双下午茶 阿勇河漂流 乌布体验 海上汽艇</div>
+				                <div class="picmask">满意度：93%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3159</span><span>元起</span></div>
+				            <p><a href="">云南-昆明-大理-丽江-香格里拉3飞8日游 昆明飞丽江，途牛金牌导游，全程度假酒店，普达措探寻芳华岁月，松赞林寺新年祈福，拉市海骑马/划船/下午茶</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar" id="thqx2">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行2.jpg" alt="" />
+				                <div class="words hide" id="wordqx2">上海包机直飞 包含税费 全程自由行 酒店无法指定</div>
+				                <div class="picmask">满意度：93%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">2849</span><span>元起</span></div>
+				            <p><a href="">云南-昆明-大理-丽江-香格里拉3飞8日游  春节抢先购，暖冬smart自驾环洱海，昆明飞大理，省6H车程，DIY周城扎染，玉龙雪山大索道，1晚温泉酒店</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar" id="thqx3">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行3.jpg" alt="" />
+				                <div class="words hide" id="wordqx3">大床房型集结 覆盖三亚各地 多种一日游可增订</div>
+				                <div class="picmask">满意度：96%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">540</span><span>元起</span></div>
+				            <p><a href="">宁波-普陀山3日游  宁波参团，休闲度假好选择</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar thtop" id="thqx4">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行4.jpg" alt="" />
+				                <div class="words hide" id="wordqx4">八人精品小团 真纯玩无购物 云南精华景点 玉龙雪山 大理洱海双廊 香格里拉</div>
+				                <div class="picmask">满意度：95%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1950</span><span>元起</span></div>
+				            <p><a href="">厦门-鼓浪屿双飞4日游  半跟团，含5大景点，1晚鼓浪屿，登日光岩，俯瞰360度鼓浪屿全景，含海鲜大咖晚餐，2晚市区舒适酒店，0购物0自费，享海边骑行</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thqx5">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行5.jpeg" alt="" />
+				                <div class="words hide" id="wordqx5">纳西院落  特色客栈  幽静之选</div>
+				                <div class="picmask">满意度：94%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">1211</span><span>元起</span></div>
+				            <p><a href="">厦门-鼓浪屿双飞4日自由行  1晚鼓浪屿，2晚市区精选酒店，航班自选，畅想自由，良辰美景，预订即可自取伴手礼（热销产品）</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thqx6">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行6.jpg" alt="" />
+				                <div class="words hide" id="wordqx6">东部海岸五星，跟团两日游，房型可选择，行程可升级
+				                ，三天自由活动</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3580</span><span>元起</span></div>
+				            <p><a href="">昆明-丽江-玉龙雪山-泸沽湖-大理双飞7日游  纯玩 玉龙雪山 温泉SPA 双篝火晚会 360度环湖游  蝴蝶之梦 海边客栈</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thqx7">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行7.jpeg" alt="" />
+				                <div class="words hide" id="wordqx7">精选180°海景  经典TOP5景点 亲子蜜月纯玩  超值品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3580</span><span>元起</span></div>
+				            <p><a href="">昆明-丽江-香格里拉-泸沽湖-大理9日游  纯玩0购物 北线全景 藏民家访 特色表演 环游洱海 篝火晚会 春夏秋冬景</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thqx8">
+				            <div class="pic">
+				                <img src="theme/themeimgs/骑行8.jpg" alt="" />
+				                <div class="words hide" id="wordqx8">牛人年度爆款 TOP5景点 亲子蜜月纯玩 180海景房 海岛纯玩品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">2249</span><span>元起</span></div>
+				            <p><a href="">昆明-丽江-香格里拉-泸沽湖-大理-版纳纯玩12日游  真纯玩 云南全景游 美食美景 洱海游轮 民俗表演 嗨到最后</a></p>
+				        </div>
+				    </div>
+			    </div></div>
+                 <!-- 特色徒步 -->
+			    <div class="hide"><div class="th_Img">
+				    <div class="th_leftImg">
+					    <a href=""><img src="theme/themeimgs/特色户外.png" alt="" /></a>
+				    </div>
+				    <div id="th_rightImg">
+				        <div class="th_smallImg th_topMar" id="thtb1">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步1.jpg" alt="" />
+				                <div class="words hide" id="wordtb1">蓝梦岛 海底漫步 双下午茶 阿勇河漂流 乌布体验 海上汽艇</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">2280</span><span>元起</span></div>
+				            <p><a href="">丽江-香格里拉-梅里雪山-雨崩村-虎跳峡6日户外游  纯玩0购物深度摄影朝圣梅里徒步雨崩观日照金山赏雨崩神瀑</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar" id="thtb2">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步2.jpg" alt="" />
+				                <div class="words hide" id="wordtb2">上海包机直飞 包含税费 全程自由行 酒店无法指定</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">698</span><span>元起</span></div>
+				            <p><a href="">丽江古城玉龙雪山2日游  全程无购物歌舞演出玉龙雪
+				            山云杉坪索道</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar" id="thtb3">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步3.jpg" alt="" />
+				                <div class="words hide" id="wordtb3">大床房型集结 覆盖三亚各地 多种一日游可增订</div>
+				                <div class="picmask">满意度：95%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">8459</span><span>元起</span></div>
+				            <p><a href="">稻城亚丁+新都桥+海螺沟双飞9日游  20人户外小团，含景区观光车，亚丁电瓶车，0购物，尝牦牛肉汤锅，宿景区，观星空，赏烤羊晚会</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar thtop" id="thtb4">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步4.jpg" alt="" />
+				                <div class="words hide" id="wordtb4">八人精品小团 真纯玩无购物 云南精华景点 玉龙雪山 大理洱海双廊 香格里拉</div>
+				                <div class="picmask">满意度：92%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3779</span><span>元起</span></div>
+				            <p><a href="">[元旦]  哈尔滨-东升雪谷-雪乡-亚布力-冰雪大世界
+				            双飞5日游0购物，雪乡穿越，甄选地标高分酒店，深度玩雪24H，升级4H滑雪，轻奢游东北</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thtb5">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步5.jpg" alt="" />
+				                <div class="words hide" id="wordtb5">纳西院落  特色客栈  幽静之选</div>
+				                <div class="picmask">满意度：95%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">4408</span><span>元起</span></div>
+				            <p><a href="">元阳梯田-建水古城-碧色寨-坝美-普者黑-罗平油菜花双飞9日游  0购物，24H接机，2段梯田徒步，探芳华取景地，摄梯田光影，户外深度之旅</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thtb6">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步6.jpg" alt="" />
+				                <div class="words hide" id="wordtb6">东部海岸五星，跟团两日游，房型可选择，行程可升级
+				                ，三天自由活动</div>
+				                <div class="picmask">满意度：97%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">8459</span><span>元起</span></div>
+				            <p><a href="">稻城亚丁+海螺沟+新都桥+甲居藏寨+四姑娘山双飞10日游  20人户外小团，0购物，诱惑金秋，品特色餐，宿2晚景区游览时间充足，玩转川西</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thtb7">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步7.jpg" alt="" />
+				                <div class="words hide" id="wordtb7">精选180°海景  经典TOP5景点 亲子蜜月纯玩  超值品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：96%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">7959</span><span>元起</span></div>
+				            <p><a href="">甲居藏寨-四姑娘山-稻城亚丁-新都桥海螺沟双飞10日游  VIP12人团、0购物、金秋游、住2晚景区、观星空、看银河、尝特色餐</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thtb8">
+				            <div class="pic">
+				                <img src="theme/themeimgs/徒步8.jpg" alt="" />
+				                <div class="words hide" id="wordtb8">牛人年度爆款 TOP5景点 亲子蜜月纯玩 180海景房 海岛纯玩品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：97%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">3053</span><span>元起</span></div>
+				            <p><a href="">哈尔滨-雪乡穿越-雪谷-镜泊湖-长白山-二人转-雾凇岛双飞7日游  户外纯玩深度游，享温泉，无限滑雪，24H接机</a></p>
+				        </div>
+				    </div>
+			    </div></div>
+
+                <!-- 极地之旅 -->
+			    <div class="hide"><div class="th_Img">
+				    <div class="th_leftImg">
+					    <a href=""><img src="theme/themeimgs/特色极地.jpeg" alt="" /></a>
+				    </div>
+				    <div id="th_rightImg">
+				        <div class="th_smallImg th_topMar" id="thjd1">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地1.jpg" alt="" />
+				                <div class="words hide" id="wordjd1">蓝梦岛 海底漫步 双下午茶 阿勇河漂流 乌布体验 海上汽艇</div>
+				                <div class="picmask">满意度：95%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">17272</span><span>元起</span></div>
+				            <p><a href="">[春节] 北欧四国+冰岛12或13日游 寻猎极光之旅，极光最佳观测点，冰岛双温泉，黄金圈，内陆加飞，四大特色餐，维克黑沙滩，挪威，可异地按指纹</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar" id="thjd2">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地2.jpg" alt="" />
+				                <div class="words hide" id="wordjd2">上海包机直飞 包含税费 全程自由行 酒店无法指定</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">33999</span><span>元起</span></div>
+				            <p><a href="">[春节] 欧洲-芬兰一地7晚9日游 途牛自营，25人精致小团、北极光追梦之旅，芬兰航空，玻璃屋穹顶酒店、芬兰特色小木屋体验，桑普号破冰船（含西餐），浮游体验，鹿拉雪橇、狗拉雪橇，圣诞老人村、北极圈证书、冰雪城堡、特色桑拿浴、冰上垂钓、特色鹿肉餐，免费WIFI，拒签全退</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar" id="thjd3">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地3.jpg" alt="" />
+				                <div class="words hide" id="wordjd3">大床房型集结 覆盖三亚各地 多种一日游可增订</div>
+				                <div class="picmask">满意度：100%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">103699</span><span>元起</span></div>
+				            <p><a href="">[春节] 乌斯环亚号-南极-巴西-阿根廷-智利-秘鲁26-27日
+				            游 中文服务，全船一次性登陆不用分批（登陆次数有保障），可北上港出
+				            发</a></p>
+				        </div>
+				        <div class="th_smallImg th_topMar thtop" id="thjd4">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地4.jpg" alt="" />
+				                <div class="words hide" id="wordjd4">八人精品小团 真纯玩无购物 云南精华景点 玉龙雪山 大理洱海双廊 香格里拉</div>
+				                <div class="picmask">满意度：98%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">29412</span><span>元起</span></div>
+				            <p><a href="">[春节] 芬兰深度9日游 芬兰航空 精致小团  特色玻璃屋 赫尔辛基5星 捞帝王蟹 圣诞老人村 驯鹿农场  凯米冰雪城堡</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thjd5">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地5.jpg" alt="" />
+				                <div class="words hide" id="wordjd5">纳西院落  特色客栈  幽静之选</div>
+				                <div class="picmask">满意度：99%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">8099</span><span>元起</span></div>
+				            <p><a href="">[春节] 欧洲莫斯科-摩尔曼斯克-圣彼得堡9日游 线路升级摩尔曼斯四天三晚，全程四星，列宁号破冰船，驯鹿雪橇，冰上垂钓，俄式桑拿，追寻极光</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thjd6">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地6.jpg" alt="" />
+				                <div class="words hide" id="wordjd6">东部海岸五星，跟团两日游，房型可选择，行程可升级
+				                ，三天自由活动</div>
+				                <div class="picmask">满意度：97%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">38098</span><span>元起</span></div>
+				            <p><a href="">欧洲极光-芬兰9-10日游 特色玻璃屋，木屋，25人小团，桑普号破冰船，冰洞垂钓，雪橇，圣诞老人村，北极圈证书，芬兰浴，拒签全退</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thjd7">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地7.jpg" alt="" />
+				                <div class="words hide" id="wordjd7">精选180°海景  经典TOP5景点 亲子蜜月纯玩  超值品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：98%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">15799</span><span>元起</span></div>
+				            <p><a href="">[春节] 俄罗斯莫斯科-圣彼得堡-摩尔曼斯克极光9日游 俄航直飞，19人精致小团，升级四晚五星，追寻神秘北极光，列宁号破冰船，驯鹿场，特色餐</a></p>
+				        </div>
+				        <div class="th_smallImg" id="thjd8">
+				            <div class="pic">
+				                <img src="theme/themeimgs/极地8.jpg" alt="" />
+				                <div class="words hide" id="wordjd8">牛人年度爆款 TOP5景点 亲子蜜月纯玩 180海景房 海岛纯玩品质游 途牛明星导游</div>
+				                <div class="picmask">满意度：94%</div>
+				            </div>
+				            <div class="pri"><span>￥</span><span class="price">143900</span><span>元起</span></div>
+				            <p><a href="">[春节] 南极-智利18日游 海洋诺娃号，乘坐飞机进出南极，探险队经验丰富，邂逅极地动植物，探秘世界肚脐复活节岛，玩转涂鸦艺术</a></p>
+				        </div>
+				    </div>
+			    </div></div>
+            </div>
+		</div>
+
+
+
+        <div class="fourth">
+            <div class="fo_left">
+                <div class="fo_nav_left">
+            	    <h2>游记攻略</h2>
+                </div>
+                <div class="fobig">
+                	<div class="fo_img_left">
+                		<img src="theme/themeimgs/游记攻略.jpg" alt="" />
+                	</div>
+                	<div class="fo_img_middle">
+                		<div class="middle1">
+                			<div class="middimg"><img src="theme/themeimgs/攻略1.jpg" alt="" /></div>
+                            <div class="foword">
+                                <span><a href="">【拉萨】藏地行迹</a></span>
+                                <p><a href="">西藏，一定是因为有神的居住，才能美得如此不可方
+                                物。 ——致西藏</a></p>
+                            </div>
+                		</div>
+                		<div class="middle2">
+                			<div class="middimg"><img src="theme/themeimgs/攻略2.jpeg" alt="" /></div>
+                            <div class="foword">
+                                <span><a href="">上海迪士尼游记+攻略</a></span>
+                                <p><a href="">上海迪士尼开幕了，6月18日，也就是迪士尼开幕的第三天，我们带着小饭，迫不及待的去凑热闹了。</a></p>
+                            </div>
+                		</div>
+                		<div class="middle3">
+                			<div class="middimg"><img src="theme/themeimgs/攻略3.jpg" alt="" /></div>
+                            <div class="foword">
+                                <span><a href="">【斐济】BULA！最性感的毕业旅行！</a></span>
+                                <p><a href="">扫一眼各大斐济攻略关键词基本都有蜜月二字，我们却很非主流的把斐济定为毕业旅行的目的地。斐济之旅要追溯到2011年11月底，算是和Jenny酱的</a></p>
+                            </div>
+                		</div>
+                	</div>
+                	<div class="fo_img_right">
+                		<div class="fomiddright"><img src="theme/themeimgs/攻略4.jpg" alt="" /></div>
+                		<div class="foword">
+                                <span><a href="">【马尔代夫】蜜月婚纱游记！拍婚纱照攻略！</a></span>
+                                <p><a href="">马尔代夫，一个向往已久的圣地。 早就听说马尔代夫的海，美的让人窒息，流连忘返。</a></p>
+                            </div>
+                	</div>
+                </div>
+            </div>
+            <div class="fo_right">
+                <div class="fo_nav_right">
+            	    <h2>旅游攻略</h2>
+                </div>
+                <div class="foright">
+                	<div class="foright_img">
+                		<div class="forightimg"><img src="theme/themeimgs/攻略5.jpg" alt="" /></div>
+                		<div class="foword">
+                			<p><a href="">2017</a></p>
+                			<p><a href="">最新云南</a></p>
+                			<p><a href="">旅游攻略</a></p>
+                			<p><a href="">格式：pdf</a></p>
+                			<input type="button" value="立即下载" />
+                		</div>
+                	</div>
+                	<div class="foimgword">
+                		<div class="foword">
+                			<p><a href="">马尔代夫攻略</a></p>
+                			<p><a href="">西藏攻略</a></p>
+                			<p><a href="">普吉岛攻略</a></p>
+                			<p><a href="">厦门攻略</a></p>
+                			<p><a href="">欧洲攻略</a></p>
+                			<p><a href="">西安攻略</a></p>
+                		</div>
+                	</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fifth">
+        	<div class=" fifthf fifthone">
+        		<h4>去旅游</h4>
+        		<ul>
+        			<li><a href="">跟团游</a></li>
+        			<li><a href="">海岛游</a></li>
+        			<li><a href="">门票</a></li>
+        			<li><a href="">机票+酒店</a></li>
+        			<li><a href="">老于推荐</a></li>
+        			<li><a href="">首付出发</a></li>
+        		</ul>
+        		<ul>
+        			<li><a href="">自由行</a></li>
+        			<li><a href="">机票</a></li>
+        			<li><a href="">亲子游</a></li>
+        			<li><a href="">蜜月游</a></li>
+        			<li><a href="">公司旅游</a></li>
+        			<li><a href="">当地玩乐</a></li>
+        		</ul>
+        		<ul>
+        			<li><a href="">酒+景</a></li>
+        			<li><a href="">邮轮</a></li>
+        			<li><a href="">签证</a></li>
+        			<li><a href="">酒店</a></li>
+        			<li><a href="">牛人专线</a></li>
+        			<li><a href="">旅拍</a></li>
+        		</ul>
+        	</div>
+        	<div class=" fifthf fifthtwo">
+        		<h4 class="fifmiddle">寻优惠</h4>
+        		<ul class="fifmiddle">
+        			<li><a href="">特卖</a></li>
+        			<li><a href="">订酒店 返现金</a></li>
+        			<li><a href="">积分商城</a></li>
+        			<li><a href="">银行特惠游</a></li>
+        			<li><a href="">银行分期游</a></li>
+        		</ul>
+        	</div>
+        	<div class=" fifthf fifththree">
+        		<h4 class="fifmiddle">看攻略</h4>
+        		<ul class="fifmiddle">
+        			<li><a href="">攻略</a></li>
+        			<li><a href="">密途风向标</a></li>
+        			<li><a href="">游记</a></li>
+        			<li><a href="">达人玩法</a></li>
+        		</ul>
+        	</div>
+        	<div class=" fifthf fifthfour">
+        		<h4 class="fifmiddle">查服务</h4>
+        		<ul class="fifmiddle">
+        			<li><a href="">帮助中心</a></li>
+        			<li><a href="">积分俱乐部</a></li>
+        			<li><a href="">阳光保障</a></li>
+        			<li><a href="">火车时刻表</a></li>
+        			<li><a href="">航班查询</a></li>
+        		</ul>
+        	</div>
+        	<div class=" fifthf fifthfive fif">
+        		<h4>密途APP</h4>
+        		<p><a href="">扫描下载密途APP</a></p>
+        		<img src="theme/themeimgs/二维码.png" alt="" />
+        	</div>
+        </div>
+
+
+        <div class="undergreen">
+        	<ul>
+        		<li>
+        		    <a href="" class="bigword">阳光行程</a>
+        		    <a href="" class="smallword">透明公开</a>
+        		</li>
+        		<li>
+        		    <a href="" class="bigword">阳光价格</a>
+        		    <a href="" class="smallword">明码实价</a>
+        		</li>
+        		<li>
+        		    <a href="" class="bigword">阳光服务</a>
+        		    <a href="" class="smallword">专属客服</a>
+        		</li>
+        		<li class="underfina">
+        		    <a href="" class="smallword">客户服务电话（免长途费）</a>
+        		    <a href="" class="bigword">4007-999-999</a>
+        		</li>
+        	</ul>
+        </div>
+
+        <div class="underimgs">
+        	<div><a href=""><img src="theme/themeimgs/under1.jpg" alt="" /></a></div>
+        	<div><a href=""><img src="theme/themeimgs/under2.jpg" alt="" /></a></div>
+        	<div><a href=""><img src="theme/themeimgs/under3.jpeg" alt="" /></a></div>
+        	<div><a href=""><img src="theme/themeimgs/under4.jpeg" alt="" /></a></div>
+        </div>
+
+        <div class="underimgs underimg">
+        <div><a href=""><img src="theme/themeimgs/under.jpeg" alt="" /></a></div>
+        </div>
+
+        <div class="underwords">
+        	<p>密途客服中心位于南京市 来电显示为 025-86859999 、025-86259999 、025-85029999 、025-69609987 、025-69609986 、025-57629999 或 025-52339999</p>
+        	<p>北京密途国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00144　　上海途牛国际旅行社有限公司，旅行社业务经营许可证编号：L-SH-CJ00107</p>
+        	<ul>
+        		<li class="firstli"><a href="">关于我们</a></li>
+        		<li><a href="">Investor Relations</a></li>
+        		<li><a href="">联系我们</a></li>
+        		<li><a href="">投诉建议</a></li>
+        		<li><a href="">广告服务</a></li>
+        		<li><a href="">旅游券</a></li>
+        		<li><a href="" class="wordred">密途招聘</a></li>
+        		<li><a href="">隐私保护</a></li>
+        		<li><a href="">免责声明</a></li>
+        		<li><a href="">旅游度假资质</a></li>
+        		<li><a href="">主题旅游</a></li>
+        		<li><a href="">用户协议</a></li>
+        		<li><a href="">网站地图</a></li>
+        		<li><a href="">UEIP</a></li>
+        		<li class="lastli"><a href="">帮助中心</a></li>
+        	</ul>
+            <span class="firstspan">Copyright © 2006-2017</span>
+            <ul class="underspan">
+            	<li><a href=""> 南京途牛科技有限公司 Tuniu.com</a><span>|</span></li>
+            	<li><a href=""> 营业执照</a><span>|</span></li>
+            	<li><a href=""> ICP证：苏B2-20130006</a><span>|</span></li>
+            	<li><a href="">苏ICP备12009060号</a><span>|</span></li>
+            	<li><a href="">郑州旅游网</a></li>
+            </ul>
+        </div>
+
+        <div class="underwordsimgs">
+        	<div><a href=""><img src="theme/themeimgs/underwordsimgs1.jpg" alt="" /></a></div>
+        	<div><a href=""><img src="theme/themeimgs/underwordsimgs2.png" alt="" /></a></div>
+        	<div><a href=""><img src="theme/themeimgs/underwordsimgs3.jpg" alt="" /></a></div>
+        </div>
+
+        <div class="news">
+            <p>最新预订：6分钟前用户***306215预订[元旦]<漓江-阳朔-桂林-古东森林瀑布双飞5日游>优选0购物，8大精粹景点，赏千余亩古东枫林，遇龙河双人筏，品小南国/米粉宴，暖冬更享美景</p>
+        </div>
+
+        <div class="adver">
+        	<div><img src="theme/themeimgs/ad1.png" alt="" /></div>
+        	<div><img src="theme/themeimgs/ad2.png" alt="" /></div>
+        	<div><img src="theme/themeimgs/ad3.png" alt="" /></div>
+        	<div><img src="theme/themeimgs/ad4.png" alt="" /></div>
+        	<div><img src="theme/themeimgs/ad5.png" alt="" /></div>
+        	<div><img src="theme/themeimgs/ad6.png" alt="" /></div>
+        	<div><img src="theme/themeimgs/ad7.png" alt="" /></div>
+        	<div><img src="theme/themeimgs/ad8.png" alt="" /></div>
+        </div>
+	</div>
+
+</body>
+</html>

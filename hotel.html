@@ -1,0 +1,522 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>蜜途网</title>
+	<link rel="stylesheet" type="text/css" href="hotel/hotel.css">
+	<script type="text/javascript" src="hotel/hotel.js"></script>
+</head>
+<body>
+<!-- 导航 -->
+<div class="all">
+	<div class="nav">
+    <div class="Logo">
+      <img src="image/Logo.jpg" alt="" />
+    </div>
+    <ul>
+      <li><a href="mitu.html">首页</a></li>
+      <li><a href="theme.html">主题游</a></li>
+      <li><a href="hotel.html">酒店</a></li>
+      <li><a href="ticket.html">门票</a></li>
+      <li><a href="made_trlal.html">定制游</a></li>
+    </ul>
+    <div class="seacher" id="text">
+      <input type="txt" value="自驾游" /><button>搜索</button>
+    </div>
+    <div id="mask"></div>
+    <div class="Login">
+        <span class="login" id="login">登录</span>
+        <span class="divide">|</span>
+        <span class="regist" id="regist">注册</span>
+      </div>
+          <div class="login_area" id="login_content">
+            <div class="top">
+                <span class="head">请登录</span>
+                <span class="close" id="close">x</span>
+            </div>
+            <div class="content">
+              <p><span>账号：</span><input type="text" /></p>
+              <p class="secret"><span>密码：</span><input type="text" /></p>
+              <span class="lose">忘记密码</span>
+              <span class="submit" >登录</span>
+            </div>
+          </div>
+  </div>
+
+    <!-- 轮播图 -->
+  <div class="slideshow" id="ShowBox">
+    <ul class="imgUl" id="imgUl">
+      <li><img src="hotel/imgs/1三亚 (2).jpg" alt="" /></li>
+      <li><img src="hotel/imgs/2维多利亚.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/花3.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/4大连.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/5北京瑜伽馆.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/6魔都露台.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/7重庆.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/8兵马俑.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/9桂林.jpg" alt="" /></li>
+    </ul>
+    <ul class="slide_nav" id="slide_nav">
+<!--      <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li> -->
+    </ul>
+      <span class="sword sword_left" id="sword_pre"><</span>
+      <span class="sword sword_right" id="sword_next">></span>
+  </div>
+<!--三个小横图-->
+  <div class="slide">
+    <ul>
+      <li><img src="hotel/imgs/横1.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/横2.jpg" alt="" /></li>
+      <li><img src="hotel/imgs/横3.jpg" alt="" /></li>
+    </ul>
+  </div>
+<!--发现·当季游玩-->
+  <div class="find_play">
+    <div class="head">
+      <h1>发现·当季游玩</h1>
+      <h4>SEASONAL TOURISM</h4>
+    </div>
+    <div class="play_nav" id="play_nav">
+      <ul>
+        <li class="navColor">购物小资</li>
+        <li>漫步古镇</li>
+        <li>瞭望星空</li>
+        <li>行摄大漠</li>
+        <li>深海浮地</li>
+        <li>吃货天堂</li>
+      </ul>
+    </div>
+    <div class="play_tu" id="play_tu">
+        <ul class="tu_show">
+          <li><img src="hotel/imgs/香港.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">香港</p>
+            </div>
+          </li>  
+          <li><img src="hotelimgs/上海.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">上海</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/广州.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">广州</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="tu_none">
+          <li><img src="hotel/imgs/西塘.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">西塘</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/zz.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">周庄</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/乌镇.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">乌镇</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="tu_none">
+          <li><img src="hotel/imgs/鼓浪屿.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">鼓浪屿</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/乌鲁木齐.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">乌鲁木齐</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/安吉.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">安吉</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="tu_none">
+          <li><img src="hotel/imgs/敦煌.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">敦煌</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/呼和浩特.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">呼和浩特</p>
+            </div>          
+          </li>
+          <li><img src="hotel/imgs/西宁.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">西宁</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="tu_none">
+          <li><img src="hotel/imgs/三亚.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">三亚</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/普吉岛.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">普吉岛</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/大堡礁.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">大堡礁</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="tu_none">
+          <li><img src="hotel/imgs/成都.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">成都</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/扬州.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">扬州</p>
+            </div>
+          </li>
+          <li><img src="hotel/imgs/西安.jpg" alt="" />
+            <div class="zong_tit">
+              <p class="tit">西安</p>
+            </div>
+          </li>
+        </ul>
+    </div>
+  </div>
+<!--精选·特色推荐-->
+  <div class="Select_special">
+    <div class="Select_head">
+      <h2>精选·特色推荐</h2>
+      <h3>CHARACTERISTIC RECOMMEND</h3>
+    </div>
+    <div class="entry_item">
+      <div class="entry_bg">
+        <div class="entry_info">
+          <h4 class="entry_info_tit">青旅酒店</h4>      
+        </div>
+      </div>
+      <img src="hotel/imgs/qinlv.jpg" class="entry_img" id="digmig">
+    </div>
+
+    <div class="entry_item">
+      <div class="entry_bg">
+       <div class="entry_info">
+         <h4 class="entry_info_tit">古镇酒店</h4>    
+       </div>
+      </div>
+      <img src="hotel/imgs/guzhen.jpg" class="entry_img" id="digmig1">
+    </div>
+
+    <div class="entry_item" id=>
+      <div class="entry_bg">
+        <div class="entry_info">
+          <h4 class="entry_info_tit">亲子酒店</h4>      
+        </div>
+      </div>
+      <img src="hotel/imgs/qinzi.jpg" class="entry_img" id="digmig2">
+    </div>
+    <div class="entry_item" id=>
+      <div class="entry_bg">
+        <div class="entry_info">
+          <h4 class="entry_info_tit">依山酒店</h4>      
+        </div>
+      </div>
+      <img src="hotel/imgs/yishan.jpg" class="entry_img" id="digmig3">
+    </div>
+  </div>
+
+<!--探索·当季热门-->
+  <div class="Explore_popular">
+    <div class="Explore_popular_head">
+      <h5>探索·当季热门</h5>
+      <h6>HOT DESTINATION</h6>
+    </div>
+<!-- 第一条横图 -->
+    <div class="first">
+      <div class="small">
+        <div class="small_img">
+          <img src="hotel/imgs/hepingfandian.jpg">
+        </div>
+        <div class="words">
+          <p>上海和平饭店</p>
+          <p>外滩地区/五星级</p>
+          <p>￥2133元</p>
+        </div>
+      </div>
+      <div class="big">
+        <div class="big_img">
+          <img src="hotel/imgs/gulangyu2.jpg">
+        </div>  
+        <div class="gly_words">
+          <p>鼓浪屿</p>
+          <p>带着心灵去旅行</p>
+        </div>  
+      </div>
+    </div>
+<!-- 第二条横图 -->
+    <div class="twice">
+      <div class="small">
+        <div class="small_img">
+          <img src="hotel/imgs/qingdaozhanqiao1.jpg">
+        </div>
+        <div class="words">
+          <p>青岛</p>
+          <p>吃海鲜，喝啤酒</p>
+        </div>
+      </div>
+      <div class="small">
+        <div class="small_img">
+          <img src="hotel/imgs/dlhhjx5.jpg">
+        </div>
+        <div class="words">
+          <p>大连-方城堡豪华精选酒店</p>
+          <p>星海广场/豪华型</p>
+          <p>￥965元</p>
+        </div>
+      </div>
+      <div class="small">
+        <div class="small_img">
+          <img src="hotel/imgs/hkdisney2.jpg">
+        </div>
+        <div class="words">
+          <p>香港迪士尼乐园酒店</p>
+          <p>香港/豪华型</p>
+          <p>￥1942元</p>
+        </div>
+      </div>
+    </div>
+<!-- 第三条横图 -->
+    <div class="third">
+      <div class="big1">
+        <div class="big_img1">
+          <!-- 江南和鼓浪屿的图片位置不同，需要重新 -->
+          <img src="hotel/imgs/suzhou.jpg">
+        </div>  
+        <div class="jn_words">
+          <p>苏州</p>
+          <p>江南小桥流水人家</p>
+        </div>  
+      </div>
+      <div class="samll">
+        <div class="small_img">
+          <img src="hotel/imgs/777三亚.jpg">
+        </div>
+        <div class="sanya_words">
+          <p>三亚</p>
+          <p>五星豪华度假之旅</p>
+        </div>
+      </div>  
+    </div> 
+  </div>
+
+<!--热门酒店品牌-->
+  <div class="hotbrand">
+    <div class="hotbrand_head">
+      <h5>热门酒店品牌</h5>
+      <h6>HOT BRAND</h6>
+    </div>
+  </div>
+<!--最底下酒店图标开始-->
+  <div class="jiudiantubiao">
+    <div class="hot_brand">
+      <a href="" class="brand">
+        <img src="hotel/imgs/club.jpeg">
+        <p class="bottomzi">Club Med</p>
+      </a>
+      <a href="" class="brand">
+        <img src="hotel/imgs/香格里拉.jpg">
+        <p class="bottomzi">香格里拉</p>
+      </a>
+      <a href="" class="brand">
+        <img src="hotel/imgs/万豪.jpg">
+        <p class="bottomzi">万豪</p>
+      </a>
+      <a href="" class="brand">
+        <img src="hotel/imgs/开元.jpg">
+        <p class="bottomzi">开元</p>
+      </a>
+      <a href="" class="brand">
+        <img src="hotel/imgs/喜来登.jpg">
+        <p class="bottomzi">喜来登</p>
+      </a>
+      <a href="" class="brand">
+        <img src="hotel/imgs/锦江之星.jpg">
+        <p class="bottomzi">锦江之星</p>
+      </a>     
+      <a href="" class="brand">
+        <img src="hotel/imgs/如家.jpg">
+        <p class="bottomzi">如家</p>
+      </a>
+      <a href="" class="brand">
+        <img src="hotel/imgs/格林豪泰.jpg">
+        <p class="bottomzi">格林豪泰</p>
+      </a> 
+      <a href="" class="brand">
+        <img src="hotel/imgs/莫泰168.jpg">
+        <p class="bottomzi">莫泰168</p>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="bottom">
+    <div class=" bottom1 bottomone">
+      <h4>去旅游</h4>
+      <ul>
+        <li><a href="">跟团游</a></li>
+        <li><a href="">海岛游</a></li>
+        <li><a href="">门票</a></li>
+        <li><a href="">机票+酒店</a></li>
+        <li><a href="">老于推荐</a></li>
+        <li><a href="">首付出发</a></li>
+      </ul>
+      <ul>
+        <li><a href="">自由行</a></li>
+        <li><a href="">机票</a></li>
+        <li><a href="">亲子游</a></li>
+        <li><a href="">蜜月游</a></li>
+        <li><a href="">公司旅游</a></li>
+        <li><a href="">当地玩乐</a></li>
+      </ul>
+      <ul>
+        <li><a href="">酒+景</a></li>
+        <li><a href="">邮轮</a></li>
+        <li><a href="">签证</a></li>
+        <li><a href="">酒店</a></li>
+        <li><a href="">牛人专线</a></li>
+        <li><a href="">旅拍</a></li>
+      </ul>
+    </div>
+    <div class=" bottom1 bottomtwo">
+      <h4 class="bottommiddle">寻优惠</h4>
+      <ul class="fifmiddle">
+        <li><a href="">特卖</a></li>
+        <li><a href="">订酒店 返现金</a></li>
+        <li><a href="">积分商城</a></li>
+        <li><a href="">银行特惠游</a></li>
+        <li><a href="">银行分期游</a></li>
+      </ul>
+    </div>
+    <div class=" bottom1 bottomthree">
+      <h4 class="botmiddle">看攻略</h4>
+      <ul class="botmiddle">
+        <li><a href="">攻略</a></li>
+        <li><a href="">密途风向标</a></li>
+        <li><a href="">游记</a></li>
+        <li><a href="">达人玩法</a></li>
+      </ul>
+    </div>
+    <div class=" bottom1 bottomfour">
+      <h4 class="botmiddle">查服务</h4>
+      <ul class="botmiddle">
+        <li><a href="">帮助中心</a></li>
+        <li><a href="">积分俱乐部</a></li>
+        <li><a href="">阳光保障</a></li>
+        <li><a href="">火车时刻表</a></li>
+        <li><a href="">航班查询</a></li>
+      </ul>
+    </div>
+    <div class=" bottom1 bottomfive bot">
+      <h4>密途APP</h4>
+      <p><a href="">扫描下载密途APP</a></p>
+      <img src="hotel/imgs/二维码.png" alt="" />
+    </div>
+  </div>
+
+
+  <div class="undergreen">
+    <ul>
+      <li>
+        <a href="" class="bigword">阳光行程</a>
+        <a href="" class="smallword">透明公开</a>
+      </li>
+      <li>
+        <a href="" class="bigword">阳光价格</a>
+        <a href="" class="smallword">明码实价</a>
+      </li>
+      <li>
+        <a href="" class="bigword">阳光服务</a>
+        <a href="" class="smallword">专属客服</a>
+      </li>
+      <li class="underfina">
+        <a href="" class="smallword">客户服务电话（免长途费）</a>
+        <a href="" class="bigword">4007-999-999</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="underimgs">
+    <div><a href=""><img src="hotel/imgs/under1.jpg" alt="" /></a></div>
+    <div><a href=""><img src="hotel/imgs/under2.jpg" alt="" /></a></div>
+    <div><a href=""><img src="hotel/imgs/under3.jpeg" alt="" /></a></div>
+    <div><a href=""><img src="hotel/imgs/under4.jpeg" alt="" /></a></div>
+  </div>
+
+  <div class="underimgs underimg">
+  <div><a href=""><img src="hotel/imgs/under.jpeg" alt="" /></a></div>
+  </div>
+
+  <div class="underwords">
+    <p>密途客服中心位于南京市 来电显示为 025-86859999 、025-86259999 、025-85029999 、025-69609987 、025-69609986 、025-57629999 或 025-52339999</p>
+    <p>北京密途国际旅行社有限公司，旅行社业务经营许可证编号：L-BJ-CJ00144　　上海途牛国际旅行社有限公司，旅行社业务经营许可证编号：L-SH-CJ00107</p>
+    <ul>
+      <li class="firstli"><a href="">关于我们</a></li>
+      <li><a href="">Investor Relations</a></li>
+      <li><a href="">联系我们</a></li>
+      <li><a href="">投诉建议</a></li>
+      <li><a href="">广告服务</a></li>
+      <li><a href="">旅游券</a></li>
+      <li><a href="" class="wordred">密途招聘</a></li>
+      <li><a href="">隐私保护</a></li>
+      <li><a href="">免责声明</a></li>
+      <li><a href="">旅游度假资质</a></li>
+      <li><a href="">主题旅游</a></li>
+      <li><a href="">用户协议</a></li>
+      <li><a href="">网站地图</a></li>
+      <li><a href="">UEIP</a></li>
+      <li class="lastli"><a href="">帮助中心</a></li>
+    </ul>
+      <span class="firstspan">Copyright © 2006-2017</span>
+      <ul class="underspan">
+        <li><a href=""> 南京途牛科技有限公司 Tuniu.com</a><span>|</span></li>
+        <li><a href=""> 营业执照</a><span>|</span></li>
+        <li><a href=""> ICP证：苏B2-20130006</a><span>|</span></li>
+        <li><a href="">苏ICP备12009060号</a><span>|</span></li>
+        <li><a href="">郑州旅游网</a></li>
+      </ul>
+  </div>
+
+  <div class="underwordsimgs">
+    <div><a href=""><img src="hotel/imgs/underwordsimgs1.jpg" alt="" /></a></div>
+    <div><a href=""><img src="hotel/imgs/underwordsimgs2.png" alt="" /></a></div>
+    <div><a href=""><img src="hotel/imgs/underwordsimgs3.jpg" alt="" /></a></div>
+  </div>
+
+  <div class="news">
+      <p>最新预订：6分钟前用户***306215预订[元旦]<漓江-阳朔-桂林-古东森林瀑布双飞5日游>优选0购物，8大精粹景点，赏千余亩古东枫林，遇龙河双人筏，品小南国/米粉宴，暖冬更享美景</p>
+  </div>
+
+  <div class="adver">
+    <div><img src="hotel/imgs/ad1.png" alt="" /></div>
+    <div><img src="hotel/imgs/ad2.png" alt="" /></div>
+    <div><img src="hotel/imgs/ad3.png" alt="" /></div>
+    <div><img src="hotel/imgs/ad4.png" alt="" /></div>
+    <div><img src="hotel/imgs/ad5.png" alt="" /></div>
+    <div><img src="hotel/imgs/ad6.png" alt="" /></div>
+    <div><img src="hotel/imgs/ad7.png" alt="" /></div>
+    <div><img src="hotel/imgs/ad8.png" alt="" /></div>
+  </div>
+
+</body>
+</html>
